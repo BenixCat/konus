@@ -15,7 +15,7 @@ body {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.7)
     ),
-    url("../assets/img/about-us.png");
+    url("../../assets/about/about-us-background.webp");
 }
 
 /* ==========================================================================
@@ -53,11 +53,4 @@ body {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 25%;
-}
-
-/* ==========================================================================
-   Spacing Utilities
-   ========================================================================== */
-.mt-5vh {
-  margin-top: 15vh;
 }

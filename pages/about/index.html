@@ -3,6 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Konus! - Hakkımızda">
+    <meta name="keywords" content="Konus, Hakkımızda, Konus!, Konus! Hakkımızda">
+    <meta name="author" content="BenixCat">
     <title>Konus! - Hakkımızda</title>
 
     <!-- Bootstrap CSS -->
@@ -13,175 +16,178 @@
       crossorigin="anonymous"
     />
 
+    <!-- General CSS -->
+    <link rel="stylesheet" href="../../css/general/navigation.css" />
+    <link rel="stylesheet" href="../../css/general/footer.css" />
+    <link rel="stylesheet" href="../../css/general/background.css" />
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="../../css/about/about-us.css" />
     <link rel="stylesheet" href="../../css/about/style.css" />
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/img/fav-icon.ico" />
+    <link rel="icon" type="image/x-icon" href="../../assets/icons/fav-icon.ico" />
   </head>
 
   <body>
-    <!-- Navigation -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark fixed-top nav-nav py-2 bg-dark navigation"
-    >
-      <div class="container navigation-container">
-        <a class="navbar-brand pt-0 link-light navigation-brand-title" href="#"
-          >Konus!</a
+<!-- Navigation Start -->
+<nav
+class="navbar navbar-expand-lg navbar-dark fixed-top nav-nav py-2 bg-dark navigation"
+>
+<div class="container navigation-container">
+  <a class="navbar-brand pt-0 link-light navigation-brand-title" href="../../index.html"
+  >Konus!</a
+  >
+  <button
+    class="navbar-toggler"
+    type="button"
+    data-bs-toggle="collapse"
+    data-bs-target="#navbarNav"
+  >
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse py-2" id="navbarNav">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a
+          class="nav-link btn btn-outline-info link-light me-1 navigation-link-spc"
+          href="index.html"
+          >Hakkımızda</a
         >
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link btn btn-outline-info navigation-link-spc link-light me-1"
+          href="../campaigns/index.html"
+          >Kampanyalar</a
         >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse py-2" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a
-                class="nav-link btn btn-outline-info link-light me-1 navigation-link-spc active"
-                href="../about-us/about-us.html"
-                >Hakkımızda</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link btn btn-outline-info navigation-link-spc link-light me-1"
-                href="#"
-                >Kampanyalar</a
-              >
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Keşfet
-              </a>
+      </li>
+      <li class="nav-item dropdown">
+         <li class="nav-item dropdown">
+              <a class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle" 
+                 href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                 >Keşfet</a
+                 >
               <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Kampanyalar</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Hikayeler & Röportajlar</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
+                  <li><a class="dropdown-item" href="../articles/index.html">Makaleler</a></li>
+                  
+                  <!-- Submenu -->
+                  <li>
+                    <a class="dropdown-item" href="../stories-reports/index.html"
+                    >Hikayeler ve Röportajlar</a
+                      >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../news/index.html"
+                    >Haberler</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../sources/index.html"
                     >Kaynakça</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Makaleler</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Haberler ve Güncellemeler</a
-                  >
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a
-                    class="dropdown-item btn btn-outline-info"
-                    href="../map - TASLAK - Copy/index.html"
-                    >Dünya Basın Özgürlüğü Haritası</a
-                  >
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a
-                    class="dropdown-item btn btn-outline-info disabled"
-                    href="#"
+                    >
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  
+                  <li class="nav-item">
+                   <a
+                     class="dropdown-item"
+                     href="../index-map/index.html"
+                     >Dünya Basın Özgürlüğü Haritası</a
+                   >
+                 </li>
+                  
+          
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item disabled" href="#"
                     >Blog (Çok Yakında...)</a
-                  >
-                </li>
+                    >
+                  </li>
               </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                İletişim
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >İletişim</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Hakkımızda</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Bulunduğumuz Ülkeler</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Aksiyon al
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Bize Katıl</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Gönüllü Ol</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >E-posta Bültenine katıl</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a
-                class="btn btn-danger link-light ms-0 ms-lg-2 navigation-link-spc navigation-donate-btn"
-                href="#donate"
-                >Bağış &hearts;</a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+          </li>
+          
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          İletişim
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <a class="dropdown-item btn btn-outline-info" href="../about/index.html"
+              >Hakkımızda</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item btn btn-outline-info" href="../contact/index.html"
+              >İletişim</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item btn btn-outline-info" href="../contact/index.html#map"
+              >Bulunduğumuz Ülkeler</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle"
+          href="#"
+          role="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Aksiyon al
+        </a>
+        <ul class="dropdown-menu">
+          <li>
+            <a
+              class="dropdown-item btn btn-outline-info"
+              href="../join/index.html"
+              >Bize Katıl</a
+            >
+          </li>
+          <li>
+            <a
+              class="dropdown-item btn btn-outline-info"
+              href="../join/be-volunteer/bevolunteer.html"
+              >Gönüllü Ol</a
+            >
+          </li>
+          <li>
+            <a class="dropdown-item btn btn-outline-info" href="../join/newsletter/newsletter.html"
+              >Bültene Katıl</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a
+          class="btn btn-danger link-light ms-0 ms-lg-2 navigation-link-spc navigation-donate-btn"
+          href="../donate/index.html"
+          >Bağış &hearts;</a
+        >
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+<!-- Navigation End -->
 
     <!-- Hero Section -->
     <div class="col-12">
-      <div class="about-us-img">
+      <div class="contact-img">
         <h1 class="main-title">Hakkımızda</h1>
       </div>
-    </div>
 
     <!-- Main Content -->
     <main>
@@ -215,7 +221,7 @@
         </div>
         <div>
           <img
-            src="assets/img/a-diverse-group-of-people-from-different-backgroun.png"
+            src="../../assets/about/about-us-justice.webp"
             alt="About us img"
             style="width: 70%; height: auto"
             class="ms-5 me-auto d-none d-xl-inline d-none d-xl-inline"
@@ -229,7 +235,7 @@
           class="dp-flex-spc-btw container border-end border-start block-animation border-2 border-dark"
         >
           <img
-            src="assets/img/a-hopeful-and-inspiring-scene-depicting-a-diverse-.png"
+            src="../../assets/about/about-us-scnd-photo.webp"
             style="width: 30%"
             alt=""
             class="ms-auto me-4 d-none d-xl-inline d-none d-xl-inline"
@@ -238,7 +244,7 @@
             <h5 class="card-title mb-3 ps-5 me-5 text-center">
               <strong>Konus Nedir?</strong>
             </h5>
-            <p class="card-text text-us pe-5 ps-5">
+            <p class="card-text text-us pe-5 ps-5 text-center text-xl-start">
               <strong>Konus</strong>, insan hakları ve adalet konularında
               çalışan bir sivil toplum kuruluşudur. 2010 yılında kurulan
               <strong>Konus</strong>, dünya genelinde insan hakları ihlalleri ve
@@ -258,7 +264,7 @@
             <h5 class="card-title mb-4 ms-5 text-end text-center">
               <strong>Misyonumuz:</strong>
             </h5>
-            <p class="card-text text-us pe-5 ps-5 text-end">
+            <p class="card-text text-us pe-5 ps-5 text-center text-xl-end">
               Biz, <strong>Konus</strong> olarak, özgür bir dünya yaratmak için
               çalışıyoruz. Çevre hakları, eğitim eşitliği, adalet ve basın
               özgürlüğü gibi temel konulara odaklanarak, adaletsizliği ortadan
@@ -266,7 +272,7 @@
             </p>
           </div>
           <img
-            src="assets/img/a-professional-and-modern-representation-of-a-glob.png"
+            src="../../assets/about/about-us-thrd-photo.webp"
             style="width: 30%; height: auto"
             alt=""
             class="me-auto d-none d-xl-inline"
@@ -278,7 +284,7 @@
           class="dp-flex-spc-btw container border-end border-start block-animation border-2 border-dark"
         >
           <img
-            src="assets/img/a-symbolic-and-inspiring-representation-of-global.png"
+            src="../../assets/about/about-us-photo.webp"
             style="width: 30%; height: auto"
             alt=""
             class="ms-auto me-4 d-none d-xl-inline d-none d-xl-inline"
@@ -287,7 +293,7 @@
             <h5 class="card-title mb-3 ps-5 text-center">
               <strong>Adil ve Özgür Bir Dünya İçin Vizyonumuz:</strong>
             </h5>
-            <p class="card-text text-us pe-5 ps-5 lh-sm">
+            <p class="card-text text-us pe-5 ps-5 lh-sm text-center text-xl-start">
               Her bireyin doğuştan gelen haklarına saygı duyulan, adaletin ve
               eşitliğin temel alındığı bir dünya hayal ediyoruz. Basın ve ifade
               özgürlüğünü savunarak, doğru bilgiye erişimi kolaylaştırmayı,
@@ -329,7 +335,7 @@
           </ul>
         </div>
         <img
-          src="assets/img/a-visually-striking-composition-representing-core-.png"
+          src="../../assets/about/about-us-frth-photo.webp"
           style="width: 40%; height: auto"
           alt=""
           class="ms-4 me-auto d-none d-xl-inline d-none d-xl-inline"
@@ -356,18 +362,18 @@
       </ul>
       <ul class="menu">
         <li>
-          <a href="../New-Project-main2/New-Project-main/index.html"
+          <a href="../../index.html"
             >Ana sayfa</a
           >
         </li>
         <li>
-          <a href="../about-us-TASLAK - Copy/about-us.html">Hakkımızda</a>
+          <a href="../about/index.html">Hakkımızda</a>
         </li>
         <li>
-          <a href="../contact-TASLAK - Copy/contact-us.html#map">Ülkeler</a>
+          <a href="../contact/index.html#map">Ülkeler</a>
         </li>
-        <li><a href="#">Takım</a></li>
-        <li><a href="../contact-TASLAK - Copy/contact-us.html">İletişim</a></li>
+        <li><a href="../team/index.html">Takım</a></li>
+        <li><a href="../contact/index.html">İletişim</a></li>
       </ul>
       <p>&copy;2025 Konus | Tüm Hakları Saklıdırr</p>
     </footer>
