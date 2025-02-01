@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      İnternet Kısıtlamaları: Çin ve "Great Firewall"
+    </title>
+    <!-- CSS Dependencies -->
+    <!-- Bootstrap Start -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap End -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/fav-icon.ico" />
+    <!-- General Css -->
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <!-- Special Css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navigation Start -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top nav-nav py-2 bg-dark navigation"
+    >
+      <div class="container navigation-container">
+        <a class="navbar-brand pt-0 link-light navigation-brand-title" href="#"
+          >Konus!</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse py-2" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-outline-info link-light me-1 navigation-link-spc"
+                href="#"
+                >Hakkımızda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-outline-info navigation-link-spc link-light me-1"
+                href="#"
+                >Kampanyalar</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+               <li class="nav-item dropdown">
+                    <a class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle" 
+                       href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Keşfet
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Makaleler</a></li>
+                        
+                        <!-- Submenu -->
+                        <li class="dropdown">
+                            <a class="dropdown-item dropdown-toggle" href="#">Hikayeler ve Röportajlar</a>
+                            <ul class="dropdown-menu">
+                                 <li class="dropdown">
+                                      <a class="dropdown-item dropdown-toggle" href="#">Hikayeler</a>
+                                      <ul class="dropdown-menu">
+                                             <li><h6 class="dropdown-header">Hikaye</h6></li>
+                                           <li><a class="dropdown-item" href="#">Nelson Mandela</a></li>
+                                           <li><a class="dropdown-item" href="#">Malala Yousafzai</a></li>
+                                           <li><a class="dropdown-item" href="#">Greta Thunberg</a></li>
+                                           <li><a class="dropdown-item" href="#">Bryan Stevenson</a></li>
+                                        </ul>
+                                   </li>
+                                 <li class="dropdown">
+                                      <a class="dropdown-item dropdown-toggle" href="#">Röportajlar</a>
+                                      <ul class="dropdown-menu">
+                                             <li><h6 class="dropdown-header">Röportaj</h6></li>
+                                           <li><a class="dropdown-item" href="#">Nelson Mandela</a></li>
+                                           <li><a class="dropdown-item" href="#">Malala Yousafzai</a></li>
+                                           <li><a class="dropdown-item" href="#">Greta Thunberg</a></li>
+                                           <li><a class="dropdown-item" href="#">Bryan Stevenson</a></li>
+                                        </ul>
+                                   </li>
+                            </ul>
+                        </li>
+                        <li><a class="dropdown-item" href="#">Haberler</a></li>
+                        <li><a class="dropdown-item" href="#">Kaynakça</a></li>
+                        <li><hr class="dropdown-divider" /></li>
+                        
+                        <li class="nav-item">
+                         <a
+                           class="dropdown-item"
+                           href="#"
+                           >Dünya Basın Özgürlüğü Haritası</a
+                         >
+                       </li>
+                        <!-- Submenu
+                        <li class="dropdown">
+                            <a class="dropdown-item dropdown-toggle" href="#">Dünya Basın Özgürlüğü Haritası</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Küresel Rapor</a></li>
+                                <li><a class="dropdown-item" href="#">Yerel Analizler</a></li>
+                                <li class="dropdown">
+                                    <a class="dropdown-item dropdown-toggle">Derinlemesine</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Veriler</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li> -->
+                
+                        <li><hr class="dropdown-divider" /></li>
+                        <li><a class="dropdown-item disabled" href="#">Blog (Çok Yakında...)</a></li>
+                    </ul>
+                </li>
+                
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                İletişim
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >Hakkımızda</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >İletişim</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >Bulunduğumuz Ülkeler</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Aksiyon al
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a
+                    class="dropdown-item btn btn-outline-info"
+                    href="join-us.html"
+                    >Bize Katıl</a
+                  >
+                </li>
+                <li>
+                  <a
+                    class="dropdown-item btn btn-outline-info"
+                    href="bevolunteer.html"
+                    >Gönüllü Ol</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >Bültene Katıl</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="btn btn-danger link-light ms-0 ms-lg-2 navigation-link-spc navigation-donate-btn"
+                href="#donate"
+                >Bağış &hearts;</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navigation End -->
+
+    <div class="container mt-5">
+<!-- Pinned Post Start -->
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-lg-10">
+      <div class="card shadow-lg border-0">
+        <img src="assets/china_great_firewall_card.png" 
+             alt="Bir Çinli gazeteci, dizüstü bilgisayarıyla çalışırken üzgün görünüyor. Arkada Çin Seddi ve büyük bir Çin bayrağı dalgalanıyor. Duvarın üzerinde yasaklı sosyal medya platformlarının simgeleri yer alıyor, Çin’in internet sansürünü sembolize eden bir kompozisyon." class="card-img-top rounded-top">
+        <div class="card-body p-4">
+          <span class="badge bg-danger mb-3 d-inline-block">📌 Öne Çıkan Gönderi</span>
+          <h2 class="card-title fw-bold text-dark">
+            İnternet Kısıtlamaları: Çin ve "Great Firewall"
+          </h2>
+          
+          <!-- Author Section -->
+          <div class="d-flex align-items-center mb-3">
+            <img src="https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001879.png" 
+                 alt="Author Icon" class="rounded-circle me-2" width="40" height="40">
+            <span class="text-muted">By <strong>Deniz</strong></span>
+          </div>
+
+          <p class="text-muted">
+            Çin’in "Great Firewall" (Büyük Güvenlik Duvarı) politikası, internet üzerindeki sansürün en katı örneklerinden biri olarak değerlendirilmektedir. Bu sistem, sosyal medya platformlarına erişimin engellenmesi, belirli anahtar kelimelerin filtrelenmesi ve hükümetin dijital içerikler üzerinde tam kontrol sağlaması gibi uygulamaları içermektedir.
+          </p>
+
+          <p class="text-muted">
+            Özellikle 2019 Hong Kong protestoları sırasında, Çin hükümeti bilgi akışını ciddi şekilde kısıtlamış ve halkın iletişim kanallarına ulaşmasını zorlaştırmıştır. Bu kısıtlamalar yalnızca yerel halkı değil, aynı zamanda uluslararası medya organlarını ve insan hakları savunucularını da etkileyerek küresel bir endişe kaynağı haline gelmiştir.
+          </p>
+
+          <p class="text-muted">
+            Bu tür geniş çaplı internet kontrolleri, yalnızca ifade özgürlüğünü değil, aynı zamanda insanların bilgiye erişim hakkını da tehdit etmektedir. Çin’in dijital sansür politikaları, otoriter rejimlerin interneti nasıl bir kontrol mekanizması olarak kullanabileceğini gösteren en dikkat çekici örneklerden biri olarak değerlendirilmektedir.
+          </p>
+          <!-- Read More Button -->
+          <div class="text-center mt-3">
+            <a href="#" class="btn btn-primary px-4 py-2">Daha Fazla Oku</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Pinned Post End -->
+
+<!-- Story Content -->
+<article class="py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="card shadow-lg border-0">
+          <img src="assets/china_great_firewall_content.png" alt="Bir Çinli internet kullanıcısı, ekranında erişim engellenmiş sosyal medya sitelerine bakıyor. Arka planda dev bir dijital güvenlik duvarı ve kilit simgeleri, Çin’in 'Great Firewall' politikasıyla uyguladığı internet sansürünü görselleştiriyor." class="card-img-top rounded-top">
+          <div class="card-body p-5">
+            <h2 class="text-center mb-4 fw-bold border-bottom pb-2">
+              İnternet Kısıtlamaları: Çin ve "Great Firewall"
+            </h2>
+
+            <h3 class="mt-4 fw-semibold text-primary">İnternet Kısıtlamalarının Arka Planı</h3>
+            <p class="text-muted">
+              Son yıllarda, hükümetlerin dijital sansürü artırarak bilgiye erişimi kısıtlaması, küresel çapta ifade özgürlüğüne yönelik en büyük tehditlerden biri haline gelmiştir. Çin’in uyguladığı "Great Firewall" politikası, bu tehdidin en belirgin örneklerinden biridir.
+            </p>
+
+            <p class="text-muted">
+              Bu sistem, Çin’de faaliyet gösteren internet servis sağlayıcıları ve teknoloji şirketleri aracılığıyla çalışmakta olup, milyonlarca web sitesine ve sosyal medya platformuna erişimi engellemektedir. Özellikle Facebook, Twitter, YouTube, Wikipedia ve Google gibi küresel platformların yasaklı olması, Çin’de internet kullanıcılarını ciddi şekilde sınırlandırmaktadır.
+            </p>
+
+            <p class="text-muted">
+              Çin hükümeti, bu politikayı "siber güvenliği sağlamak" ve "ulusal istikrarı korumak" amacıyla uyguladığını öne sürmektedir. Ancak, uzmanlar ve insan hakları örgütleri, bu uygulamaların esas amacının halkın bilgiye erişimini ve hükümet karşıtı söylemleri engellemek olduğunu vurgulamaktadır.
+            </p>
+            
+            <h3 class="mt-4 fw-semibold text-primary">Uzman Görüşleri</h3>
+
+            <p class="text-muted">
+              İfade özgürlüğü ve internet sansürü konularında uzmanlar, Çin’in "Great Firewall" sisteminin küresel çapta ifade özgürlüğü açısından ciddi bir tehdit oluşturduğunu belirtmektedir.
+            </p>
+
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item border-0"><i class="bi bi-check-circle-fill text-success"></i> Uluslararası Af Örgütü ve Sınır Tanımayan Gazeteciler gibi kuruluşlar, Çin’in internet kısıtlamalarının yalnızca yerel halkı değil, aynı zamanda uluslararası medya organlarını da etkilediğini ve bilgiye erişim hakkını ihlal ettiğini dile getirmektedir.</li>
+              <li class="list-group-item border-0"><i class="bi bi-check-circle-fill text-success"></i> Teknoloji uzmanları, Çin’in bu sistemle yalnızca mevcut interneti kontrol etmekle kalmayıp, aynı zamanda hükümetin uygun gördüğü içeriklerin yayılmasını teşvik eden "devlet kontrollü bir internet" modeli oluşturmaya çalıştığını ifade etmektedir.</li>
+              <li class="list-group-item border-0"><i class="bi bi-check-circle-fill text-success"></i> Akademisyenler, bu tür geniş çaplı sansür politikalarının halkın bilgiye erişim olanaklarını kısıtladığını ve hükümetin kontrolünü güçlendirdiğini belirtmektedir.</li>
+            </ul>
+            <p class="text-muted mt-3">
+              Bu bağlamda, "Great Firewall" politikası, Çin’de yaşayan bireylerin haber alma özgürlüğünü ve bilgiye erişim hakkını doğrudan etkileyerek, sansürün küresel etkileri üzerine önemli tartışmalara yol açmaktadır.
+            </p>
+
+            <h3 class="mt-4 fw-semibold text-primary">Hükümetlerin Rolü</h3>
+            <p class="text-muted">
+              Dijital sansürün önlenmesi için hükümetlerin ve uluslararası örgütlerin daha aktif bir rol oynaması gerektiği belirtilmektedir. Bu kapsamda alınabilecek önlemler şunlardır:
+            </p>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item border-0"><i class="bi bi-check-circle-fill text-success"></i> İnternet özgürlüğünü koruyacak uluslararası yasal düzenlemelerin güçlendirilmesi</li>
+              <li class="list-group-item border-0"><i class="bi bi-check-circle-fill text-success"></i> Sansür uygulayan devletlerin insan hakları ihlallerinin uluslararası platformlarda ele alınması</li>
+              <li class="list-group-item border-0"><i class="bi bi-check-circle-fill text-success"></i> Şeffaflık ilkelerini benimseyen ve özgür interneti destekleyen girişimlerin teşvik edilmesi</li>
+            </ul>
+
+            <p class="text-muted">
+              Uzmanlar, internet sansürünün yalnızca belirli bireyleri veya basını değil, tüm toplumu ilgilendiren bir konu olduğunu vurgulamaktadır. Dijital bilgi akışının kesilmesi, toplumun özgür düşünceye ulaşmasını engelleyerek demokrasiye ciddi zararlar verebilir.
+            </p>
+
+            <h3 class="mt-4 fw-semibold text-primary">Sonuç</h3>
+            <p class="text-muted">
+              Çin’in uyguladığı "Great Firewall" politikası, internet sansürünün ne denli büyük boyutlara ulaşabileceğini gösteren en dikkat çekici örneklerden biridir. Bu tür uygulamalar, yalnızca belirli bir ülkeyi değil, küresel bilgi akışını ve dijital özgürlükleri de tehdit etmektedir.
+            </p>
+
+            <p class="text-muted">
+              İfade özgürlüğünün korunması ve bilgiye erişim hakkının savunulması için uluslararası toplumun, hükümetlerin ve sivil toplum kuruluşlarının birlikte hareket etmesi gerekmektedir. Aksi takdirde, internet üzerindeki baskılar giderek artacak ve dijital dünyada özgürlüklerin sınırlandırılması daha yaygın hale gelecektir.
+            </p>
+
+            <div class="text-center mt-4">
+              <button class="btn btn-primary px-4 py-2">Daha Fazla Oku</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<!-- Related Articles Section -->
+<div class="container mt-4">
+  <div class="row justify-content-center">
+    <div class="col-lg-10 col-md-12">
+      <div class="card shadow-lg border-0">
+        <div class="card-body">
+          <h3 class="card-title text-center border-bottom pb-2">İlgili Makaleler</h3>
+          <div class="row">
+            <div class="col-md-6 col-sm-12 mb-3">
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                  <img src="#" alt="Article Image" class="img-fluid rounded me-3" width="50" height="50">
+                  İletişim Özgürlüğü ve Sosyal Medya: Yeni Yüzleşmeler
+                </a>
+                <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                  <img src="#" alt="Article Image" class="img-fluid rounded me-3" width="50" height="50">
+                  Dijital Dünyada İfade Özgürlüğü: Zorluklar ve Fırsatlar
+                </a>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 mb-3">
+              <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                  <img src="#" alt="Article Image" class="img-fluid rounded me-3" width="50" height="50">
+                  Hükümetlerin Sosyal Medya Üzerindeki Etkisi
+                </a>
+                <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
+                  <img src="#" alt="Article Image" class="img-fluid rounded me-3" width="50" height="50">
+                  Dünya Genelinde İfade Özgürlüğü: Bir Değerlendirme
+                </a>
+              </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Related Articles Section End -->
+</div>
+    
+    <!-- Footer Start -->
+    <footer class="mt-4">
+      <div class="footer-light"></div>
+      <ul class="social-icon footer-content">
+        <li>
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        </li>
+        <li>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        </li>
+        <li>
+          <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        </li>
+        <li>
+          <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li><a href="#">Ana sayfa</a></li>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Ülkeler</a></li>
+        <li><a href="#">Takım</a></li>
+        <li><a href="#">İletişim</a></li>
+      </ul>
+      <p>&copy;2025 Konus | Tüm Hakları Saklıdırr</p>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Scripts -->
+    <!-- Bootstrap Start -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Bootstrap End -->
+
+    <!-- Icons Start -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- Icons End -->
+  </body>
+</html>

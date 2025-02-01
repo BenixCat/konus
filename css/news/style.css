@@ -1,0 +1,127 @@
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+body {
+  flex-direction: column;
+}
+
+/* ==========================================================================
+   Sidebar Styles
+   ========================================================================== */
+.aside-bar {
+     position: absolute;
+     right: 0;
+     top: 0%;
+     background: #eee;
+     padding: 20px;
+     overflow-y: auto;
+     border-radius: 20px;
+     box-shadow: 0 0 20px #6bbbbb;
+ }
+
+ aside ul {
+     list-style: none;
+     padding: 0;
+ }
+
+ aside li {
+     padding: 10px;
+     margin: 5px 0;
+     cursor: pointer;
+     font-weight: 600;
+ }
+
+.relative{
+     position: relative;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: #559292;
+}
+
+aside ul li a:hover{
+    text-decoration: none;
+    color: #3c6b6b;
+}
+  
+/* ==========================================================================
+   About Section Styles
+   ========================================================================== */
+.about-us-img {
+    height: 80vh;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.7)
+      ),
+      url("../assets/img/landing-image.png");
+  }
+  
+  /* ==========================================================================
+   Utility Classes
+   ========================================================================== */
+.dp-flex-spc-btw {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-us {
+    font-size: 1.2rem;
+    letter-spacing: 1.28px;
+    max-width: 800px;
+}
+
+.mt-5vh{
+    margin-top: 15vh;
+}
+
+/* ==========================================================================
+   Research Section Styles
+   ========================================================================== */
+.research-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.research-content {
+    padding: 2rem;
+    flex: 1;
+}
+
+.research-image {
+    flex: 1;
+    min-height: 300px;
+}
+
+.research-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ==========================================================================
+   Resource Card Styles
+   ========================================================================== */
+.resource-card {
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.resource-card:hover {
+    transform: translateX(10px);
+}
+
+.resource-icon {
+    font-size: 2rem;
+    color: var(--primary-color);
+}

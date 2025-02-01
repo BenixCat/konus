@@ -1,0 +1,80 @@
+/* ==========================================================================
+   Hero Section Styles
+   ========================================================================== */
+.contact-img { 
+  height: 95vh;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.7)
+    ),
+    url('../assets/img/campaigns-main-img.png');
+  flex-direction: column;
+}
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+.sub-title {
+ color: hsla(0, 0%, 100%, 0.7);
+ font-size: 1.5rem;
+ font-weight: bold;
+ display: inline-block;
+ align-self: center;
+}
+
+/* ==========================================================================
+   Campaign Card Styles
+   ========================================================================== */
+.campaign-card {
+     background: #fff;
+     border-radius: 15px;
+     overflow: hidden;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+     transition: transform 0.3s ease;
+}
+
+.campaign-card:hover {
+     transform: translateY(-5px);
+}
+
+/* Campaign Card Image */
+.campaign-image {
+     position: relative;
+     height: 200px;
+     overflow: hidden;
+}
+
+.campaign-image img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     transition: transform 0.3s ease;
+}
+
+.campaign-card:hover .campaign-image img {
+     transform: scale(1.1);
+}
+
+/* Campaign Card Badge */
+.urgency-badge {
+     position: absolute;
+     top: 15px;
+     right: 15px;
+     padding: 5px 15px;
+     border-radius: 20px;
+     background: #ff0000;
+     color: #fff;
+     font-size: 0.8rem;
+     font-weight: 600;
+}
+
+/* Campaign Card Content */
+.campaign-content {
+     padding: 1.5rem;
+}
+
+.campaign-reason {
+    font-weight: 600;
+    font-size: large;
+}

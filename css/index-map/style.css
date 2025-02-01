@@ -1,0 +1,183 @@
+/* General Styles
+----------------------------------------*/
+body {
+     display: grid;
+}
+
+/* Container Styles
+----------------------------------------*/
+.map-container{
+     margin: 0 auto;
+     margin-top: 100px;
+}
+
+.tableauPlaceholder{
+     width: 20%;
+}
+
+.mt-1h{
+     margin-top: 100px;
+}
+
+/* Article Information Styles
+----------------------------------------*/
+.artc-info-title{
+     font-size: 2.1rem;
+     color: #444;
+}
+
+.artc-info-list li{
+     margin-bottom: 10px;
+     letter-spacing: 1px;
+     font-size: 1.2rem;
+}
+
+.artc-info-item-right{
+     display: inline-block;
+}
+
+/* List Styles
+----------------------------------------*/
+.left-list{
+     font-weight: 500;
+     padding: 0;
+}
+
+.list-right{
+     list-style: none;
+     padding: 20px;
+     margin-left: 10px;
+     font-weight: 800;
+     display: inline-block;
+     background-color: #deeeee;
+     border-radius: 20px;
+     box-shadow: 0 0 20px #999;
+}
+
+/* Status Color Indicators
+----------------------------------------*/
+.toobad{ color: #8f0000; }
+.bad{ color: #ff0000; }
+.mid{ color: #ff8c00; }
+.mid-good{ color: #d6d300; }
+.good{ color: #00c500; }
+.data-null{ color: #b6b6b6; }
+
+/* Communication Styles
+----------------------------------------*/
+.good-communication,
+.bad-communication {
+     background-color: #deeeee;
+     border-radius: 20px;
+     box-shadow: 0 0 20px #adadad;
+     letter-spacing: 2px;
+}
+
+.good-communication li,
+.bad-communication li{
+     display: inline;
+     font-size: 1.2rem;
+     font-weight: 600;
+     letter-spacing: 1px;
+}
+
+.bad-communication{
+     text-align: center;
+     letter-spacing: 10px;
+}
+
+.good-communication li span{ color: #00c500; }
+.bad-communication li span{ color: #ff0000; } 
+
+/* Issue Card Styles
+----------------------------------------*/
+.issue-card {
+     background: #fff;
+     border-radius: 15px;
+     overflow: hidden;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+     transition: transform 0.3s ease;
+}
+
+.issue-card:hover {
+     transform: translateY(-5px);
+}
+
+.issue-image {
+     position: relative;
+     height: 200px;
+     overflow: hidden;
+}
+
+.issue-image img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     transition: transform 0.3s ease;
+}
+
+.issue-card:hover .issue-image img {
+     transform: scale(1.1);
+}
+
+.urgency-badge {
+     position: absolute;
+     top: 15px;
+     right: 15px;
+     padding: 5px 15px;
+     border-radius: 20px;
+     background: var(--primary-color);
+     color: #fff;
+     font-size: 0.8rem;
+     font-weight: 600;
+}
+
+.issue-content {
+     padding: 1.5rem;
+}
+
+/* Research and Resource Styles
+----------------------------------------*/
+.research-card {
+     background: #fff;
+     border-radius: 15px;
+     overflow: hidden;
+     display: flex;
+     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.research-content {
+     padding: 2rem;
+     flex: 1;
+}
+
+.research-image {
+     flex: 1;
+     min-height: 300px;
+}
+
+.research-image img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+.resource-card {
+     background: #fff;
+     padding: 1.5rem;
+     border-radius: 15px;
+     display: flex;
+     align-items: center;
+     gap: 1.5rem;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+     transition: transform 0.3s ease;
+}
+
+.resource-card:hover {
+     transform: translateX(10px);
+}
+
+.resource-icon {
+     font-size: 2rem;
+     color: var(--primary-color);
+} 

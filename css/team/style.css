@@ -1,0 +1,107 @@
+/* ==========================================================================
+   Base Styles
+   ========================================================================== */
+body {
+     background-color: #0d1117;
+     color: #e6edf3;
+     flex-direction: column;
+}
+
+/* ==========================================================================
+   Team Member Card Styles
+   ========================================================================== */
+.team-member {
+     background: #1c1f26;
+     padding: 20px;
+     border-radius: 15px;
+     box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
+     text-align: center;
+     transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-member:hover {
+     transform: scale(1.05);
+     box-shadow: 0 6px 10px rgba(255, 255, 255, 0.2);
+}
+
+.team-member img {
+     width: 120px;
+     height: 120px;
+     border-radius: 50%;
+     margin-bottom: 15px;
+}
+
+.team-member h3 {
+     font-size: 1.5rem;
+     margin-bottom: 10px;
+}
+
+.team-member p {
+     font-size: 1rem;
+     color: #ccc;
+}
+
+/* ==========================================================================
+   Social Media Links
+   ========================================================================== */
+.social-links a,
+.social-links svg {
+     margin: 0 10px;
+     text-decoration: none;
+     color: #ffffff;
+     font-size: 1.5rem;
+     transition: transform 0.3s, text-shadow 0.3s;
+}
+
+.social-links a:hover,
+.social-links svg:hover {
+     transform: scale(1.2);
+     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+}
+
+.btn-x {
+     stroke: #fff;
+     text-decoration: none;
+     color: #ffffff;
+     font-size: 1.5rem;
+     -webkit-font-smoothing: antialiased;
+     display: var(--fa-display, inline-block);
+     font-style: normal;
+     font-variant: normal;
+     line-height: 1;
+     text-rendering: auto;
+     font-weight: 400;
+     font-family: "Font Awesome 6 Brands";
+}
+
+/* ==========================================================================
+   Button Styles
+   ========================================================================== */
+.btn-custom {
+     background-color: #23262d;
+     border: none;
+     padding: 15px 30px;
+     font-size: 1.2rem;
+     font-weight: bold;
+     border-radius: 10px;
+     transition: all 0.3s ease-in-out;
+     color: #e6edf3;
+}
+
+.btn-custom:hover,
+.social-links svg:hover {
+     background-color: #2a2d35;
+     transform: scale(1.05);
+     box-shadow: 0 0 7px rgba(255, 255, 255, 0.2);
+}
+
+/* ==========================================================================
+   Utility Classes
+   ========================================================================== */
+.mt-7 {
+     margin-top: 110px;
+}
+
+.mt-5vh {
+     margin-top: 15vh;
+}

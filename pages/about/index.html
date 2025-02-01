@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Konus! - Hakkımızda</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../../css/about/about-us.css" />
+    <link rel="stylesheet" href="../../css/about/style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/img/fav-icon.ico" />
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark fixed-top nav-nav py-2 bg-dark navigation"
+    >
+      <div class="container navigation-container">
+        <a class="navbar-brand pt-0 link-light navigation-brand-title" href="#"
+          >Konus!</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse py-2" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-outline-info link-light me-1 navigation-link-spc active"
+                href="../about-us/about-us.html"
+                >Hakkımızda</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn btn-outline-info navigation-link-spc link-light me-1"
+                href="#"
+                >Kampanyalar</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Keşfet
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >Kampanyalar</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >Hikayeler & Röportajlar</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >Kaynakça</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >Makaleler</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >Haberler ve Güncellemeler</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item btn btn-outline-info"
+                    href="../map - TASLAK - Copy/index.html"
+                    >Dünya Basın Özgürlüğü Haritası</a
+                  >
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a
+                    class="dropdown-item btn btn-outline-info disabled"
+                    href="#"
+                    >Blog (Çok Yakında...)</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                İletişim
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >İletişim</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >Hakkımızda</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >Bulunduğumuz Ülkeler</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Aksiyon al
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >Bize Katıl</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >Gönüllü Ol</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item btn btn-outline-info" href="#"
+                    >E-posta Bültenine katıl</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="btn btn-danger link-light ms-0 ms-lg-2 navigation-link-spc navigation-donate-btn"
+                href="#donate"
+                >Bağış &hearts;</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="col-12">
+      <div class="about-us-img">
+        <h1 class="main-title">Hakkımızda</h1>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+      <!-- About Us Section -->
+      <section
+        class="my-5 dp-flex-spc-btw container border-end border-start border-2 border-dark ps-5 block-animation"
+      >
+        <div class="col-12 col-xl-6">
+          <h2 class="fs-1">Hakkımızda</h2>
+          <p class="text-us mt-4">
+            <strong>İnsan hakları</strong>, her bireyin doğuştan sahip olduğu
+            evrensel bir değerdir. Bu inançla yola çıkarak, insan hakları
+            konusunda farkındalık yaratmayı ve doğru bilgiye erişimi
+            kolaylaştırmayı hedefleyen güçlü bir platform oluşturuyoruz.
+            <br />
+            <br />
+            <strong>Amacımız</strong>, ifade özgürlüğünü savunmak, adalet ve
+            eşitliği teşvik etmek ve insan haklarının korunması için küresel bir
+            değişime öncülük etmektir. Ekibimiz, bu alanda uzman ve deneyimli
+            gönüllülerden oluşmakta olup, tarafsız, güvenilir ve kapsamlı
+            içerikler üretmeye özen göstermektedir.
+
+            <br />
+
+            <br />
+            <strong>Sitemiz</strong>, insan haklarına ilgi duyan bireyler,
+            eğitimciler ve aktivistler için bir rehber niteliğindedir. Herkesin
+            haklarını bilmesi ve savunması gerektiğine inanıyoruz. Birlikte daha
+            adil ve özgür bir dünya inşa etmek için çalışıyoruz.
+          </p>
+        </div>
+        <div>
+          <img
+            src="assets/img/a-diverse-group-of-people-from-different-backgroun.png"
+            alt="About us img"
+            style="width: 70%; height: auto"
+            class="ms-5 me-auto d-none d-xl-inline d-none d-xl-inline"
+          />
+        </div>
+      </section>
+
+      <!-- What is Konus Section -->
+      <section>
+        <article
+          class="dp-flex-spc-btw container border-end border-start block-animation border-2 border-dark"
+        >
+          <img
+            src="assets/img/a-hopeful-and-inspiring-scene-depicting-a-diverse-.png"
+            style="width: 30%"
+            alt=""
+            class="ms-auto me-4 d-none d-xl-inline d-none d-xl-inline"
+          />
+          <div class="my-4">
+            <h5 class="card-title mb-3 ps-5 me-5 text-center">
+              <strong>Konus Nedir?</strong>
+            </h5>
+            <p class="card-text text-us pe-5 ps-5">
+              <strong>Konus</strong>, insan hakları ve adalet konularında
+              çalışan bir sivil toplum kuruluşudur. 2010 yılında kurulan
+              <strong>Konus</strong>, dünya genelinde insan hakları ihlalleri ve
+              adaletsizliklerle mücadele etmektedir. Basın özgürlüğü, ifade
+              özgürlüğü, eğitim eşitliği ve çevre hakları gibi konularda
+              çalışmalar yürüten <strong>Konus</strong>, insanların temel
+              haklarına erişebilmesi için çaba göstermektedir.
+            </p>
+          </div>
+        </article>
+
+        <!-- Mission Section -->
+        <article
+          class="dp-flex-spc-btw container border-end border-start block-animation border-2 border-dark"
+        >
+          <div class="my-5">
+            <h5 class="card-title mb-4 ms-5 text-end text-center">
+              <strong>Misyonumuz:</strong>
+            </h5>
+            <p class="card-text text-us pe-5 ps-5 text-end">
+              Biz, <strong>Konus</strong> olarak, özgür bir dünya yaratmak için
+              çalışıyoruz. Çevre hakları, eğitim eşitliği, adalet ve basın
+              özgürlüğü gibi temel konulara odaklanarak, adaletsizliği ortadan
+              kaldırmayı hedefliyoruz.
+            </p>
+          </div>
+          <img
+            src="assets/img/a-professional-and-modern-representation-of-a-glob.png"
+            style="width: 30%; height: auto"
+            alt=""
+            class="me-auto d-none d-xl-inline"
+          />
+        </article>
+
+        <!-- Vision Section -->
+        <article
+          class="dp-flex-spc-btw container border-end border-start block-animation border-2 border-dark"
+        >
+          <img
+            src="assets/img/a-symbolic-and-inspiring-representation-of-global.png"
+            style="width: 30%; height: auto"
+            alt=""
+            class="ms-auto me-4 d-none d-xl-inline d-none d-xl-inline"
+          />
+          <div class="my-5">
+            <h5 class="card-title mb-3 ps-5 text-center">
+              <strong>Adil ve Özgür Bir Dünya İçin Vizyonumuz:</strong>
+            </h5>
+            <p class="card-text text-us pe-5 ps-5 lh-sm">
+              Her bireyin doğuştan gelen haklarına saygı duyulan, adaletin ve
+              eşitliğin temel alındığı bir dünya hayal ediyoruz. Basın ve ifade
+              özgürlüğünü savunarak, doğru bilgiye erişimi kolaylaştırmayı,
+              insan hakları ihlalleriyle mücadele etmeyi ve küresel ölçekte bir
+              fark yaratmayı hedefliyoruz.
+              <br />
+              <br />
+              İnsanların seslerini duyurabildiği, haklarına erişebildiği ve daha
+              bir geleceğin inşa edildiği güçlü bir platform oluşturmaktır. Hep
+              birlikte özgürlük, eşitlik ve insan onurunu savunan bir dünya için
+              çalışıyoruz.
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <!-- Values Section -->
+      <section
+        class="dp-flex-spc-btw container my-5 border-end border-start border-2 border-dark ps-5 block-animation"
+      >
+        <div class="card-">
+          <h5 class="card-title text-center"><strong>Değerlerimiz</strong>:</h5>
+          <ul class="text-us">
+            <li class="my-4">
+              <strong>Adalet</strong>: Tüm insanların eşit haklara sahip olması
+              gerektiğine inanıyoruz.
+            </li>
+            <li class="my-4">Hak savunucularına destek oluyoruz.</li>
+            <li class="my-4">
+              <strong>Şeffaflık</strong>: Çalışmalarımızda açık ve hesap
+              verebilir olmayı önemsiyoruz.
+            </li>
+            <li class="my-4">İfade özgürlüğünü teşvik ediyoruz.</li>
+            <li class="my-4">
+              <strong>İş Birliği</strong>: Güçlü bir dünya için ortaklıkların
+              önemine inanıyoruz.
+            </li>
+            <li class="my-4">toplumsal eşitlik için projeler yürütüyoruz.</li>
+          </ul>
+        </div>
+        <img
+          src="assets/img/a-visually-striking-composition-representing-core-.png"
+          style="width: 40%; height: auto"
+          alt=""
+          class="ms-4 me-auto d-none d-xl-inline d-none d-xl-inline"
+        />
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="mt-5">
+      <div class="footer-light"></div>
+      <ul class="social-icon footer-content">
+        <li>
+          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+        </li>
+        <li>
+          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        </li>
+        <li>
+          <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+        </li>
+        <li>
+          <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+        </li>
+      </ul>
+      <ul class="menu">
+        <li>
+          <a href="../New-Project-main2/New-Project-main/index.html"
+            >Ana sayfa</a
+          >
+        </li>
+        <li>
+          <a href="../about-us-TASLAK - Copy/about-us.html">Hakkımızda</a>
+        </li>
+        <li>
+          <a href="../contact-TASLAK - Copy/contact-us.html#map">Ülkeler</a>
+        </li>
+        <li><a href="#">Takım</a></li>
+        <li><a href="../contact-TASLAK - Copy/contact-us.html">İletişim</a></li>
+      </ul>
+      <p>&copy;2025 Konus | Tüm Hakları Saklıdırr</p>
+    </footer>
+
+    <!-- Scripts -->
+    <!-- Icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+/* ==========================================================================
+   Typography & Base Styles
+   ========================================================================== */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+     font-family: "Poppins", sans-serif;
+}
+
+/* ==========================================================================
+   Navigation Typography
+   ========================================================================== */
+.navigation {
+     font-size: 1.1rem;
+     font-weight: 400;
+}
+
+.navigation-brand-title {
+     font-size: 2.5rem;
+     font-weight: 300;
+     letter-spacing: 1px;
+}
+
+/* ==========================================================================
+   Navigation Elements
+   ========================================================================== */
+.navigation-link-spc {
+     border-radius: 200px;
+     display: inline-block;
+     padding: 10px;
+     margin-top: 0.4rem;
+}
+
+.navigation-donate-btn {
+     font-size: 1.1rem;
+     font-weight: 500;
+}
+
+/* ==========================================================================
+   Dropdown Menu Styles
+   ========================================================================== */
+.dropdown:hover > .dropdown-menu {
+     display: block;
+     margin-top: 0;
+}
+
+/* Submenu hover */
+.dropdown-menu .dropdown:hover > .dropdown-menu {
+     display: block;
+     position: absolute;
+     top: 0;
+     left: 100%;
+     margin-top: -1px;
+}
+
+/* ==========================================================================
+   Responsive Dropdown
+   ========================================================================== */
+@media (max-width: 992px) {
+     .dropdown:hover > .dropdown-menu {
+         display: none;
+     }
+     .dropdown-menu .dropdown:hover > .dropdown-menu {
+         display: none;
+     }
+}
+ 

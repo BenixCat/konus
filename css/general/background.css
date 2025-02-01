@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Reset & Base Styles
+   ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ==========================================================================
+   Hero Image Component
+   ========================================================================== */
+.contact-img {
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;     
+  display: flex;
+  justify-content: center;
+}   
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+.main-title {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: bold;
+  display: inline-block;
+  align-self: center;
+}
+
+.sub-title {
+  color: hsla(0, 0%, 100%, 0.7);
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: inline-block;
+  align-self: center;
+}
