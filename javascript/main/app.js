@@ -17,3 +17,32 @@ document.addEventListener("DOMContentLoaded", function () {
     updateImpact(this.value);
   });
 });
+
+// Sayfa yüklendiğinde çalışacak fonksiyon
+window.addEventListener("load", function () {
+  // localStorage içinde "visited" değerini kontrol edelim
+  const alreadyVisited = localStorage.getItem("visited");
+
+  // Eğer daha önce ziyaret edilmemişse (yoksa), kaplamayı göster ve scroll'u engelle
+  if (!alreadyVisited) {
+    document.body.classList.add("no-scroll");
+    document.getElementById("overlay").style.display = "flex";
+  } else {
+    // Ziyaret edilmişse kaplamayı hiç göstermeyelim
+    document.getElementById("overlay").style.display = "none";
+  }
+
+  // "Devam" butonuna tıklanınca yapılacaklar
+  const devamEtBtn = document.getElementById("devamEtBtn");
+  devamEtBtn.addEventListener("click", function () {
+    // localStorage'a "visited" değerini true olarak ayarla
+    localStorage.setItem("visited", true);
+    // Kaplamayı gizle
+    document.getElementById("overlay").style.display = "none";
+    // Sayfayı kaydırmayı yeniden aktif et
+    document.body.classList.remove("no-scroll");
+    // İstediğiniz sayfaya yönlendirin
+    window.location.href =
+      "https://www.konus.org/pages/first-time-event/index.html";
+  });
+});
