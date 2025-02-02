@@ -3,47 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Restricted" />
-    <meta
-      name="keywords"
-      content="Restricted, Özgürlük, İletişim, Kısıtlamalar"
-    />
-    <meta name="author" content="BenixCat" />
-    <title>Restricted</title>
+    <title>Restricted - Z Pattern</title>
     <!-- Bootstrap 5 CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <style>
-      /* Koyu arka plan ve açık metin */
-      body {
-        background-color: #141414;
-        color: #fff;
-      }
-      /* Büyük başlık - kırmızı renk (Bootstrap Danger) */
-      .main-title {
-        color: #dc3545;
-      }
-      /* Aralara dikey boşluk için */
-      .z-row {
-        margin-bottom: 3rem;
-      }
-      /* Kart (koyu gri + kırmızı border) */
-      .custom-card {
-        background-color: #1f1f1f;
-        border: 1px solid #dc3545;
-        border-radius: 8px;
-        padding: 1.5rem;
-      }
-      /* Resimler */
-      .z-img {
-        width: 100%;
-        height: auto;
-        border: 1px solid #dc3545;
-        border-radius: 8px;
-      }
-    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="/css/first-time-event/style.css" />
   </head>
   <body>
     <div class="container my-5">
@@ -57,21 +24,19 @@
         </p>
       </div>
 
-      <!-- 1. Satır (Resim Solda XL, üst üste LG ve altı) -->
+      <!-- 1. Aile İçi İletişim Kısıtlaması -->
       <div class="row align-items-center z-row">
-        <!-- Resim Kolonu -->
-        <div class="col-12 col-xl-6 order-1 order-xl-1 mb-3 mb-xl-0">
+        <div class="col-12 col-xl-6 order-1">
           <img
             src="../../assets/first-time-event/family-communication-restriction.webp"
             alt="Aile İçi İletişim Kısıtlaması"
             class="z-img"
           />
         </div>
-        <!-- Metin Kolonu -->
-        <div class="col-12 col-xl-6 order-2 order-xl-2">
+        <div class="col-12 col-xl-6 order-2">
           <div class="custom-card">
             <h2 class="fw-bold">1. Aile İçi İletişim Kısıtlaması</h2>
-            <p class="mb-0">
+            <p>
               Aile içerisinde yaşanan iletişim kısıtlaması, bireylerin
               kendilerini özgürce ifade edememesine, duygularını ve
               düşüncelerini bastırmasına yol açar. Bu durum, evde çatışma
@@ -90,18 +55,10 @@
         </div>
       </div>
 
-      <!-- 2. Satır (Resim Sağda XL) -->
+      <!-- 2. Medya Kısıtlaması -->
       <div class="row align-items-center z-row">
-        <!-- Metin Kolonu -->
         <div class="col-12 col-xl-6 order-1">
-          <div
-            style="
-              background-color: #dc3545;
-              color: #fff;
-              border-radius: 8px;
-              padding: 1.5rem;
-            "
-          >
+          <div class="highlighted-card">
             <h2 class="fw-bold">
               2. Medya Kısıtlaması
               <span class="text-decoration-underline">
@@ -110,7 +67,7 @@
                 >
               </span>
             </h2>
-            <p class="mb-0">
+            <p>
               Medya kısıtlaması, gazetelerin, televizyon kanallarının veya
               çevrimiçi haber platformlarının sansüre uğraması, eleştirel
               yayınların engellenmesi ya da belirli içeriklerin halka
@@ -126,10 +83,7 @@
             </p>
           </div>
         </div>
-        <!-- Resim Kolonu -->
-        <div
-          class="col-12 col-xl-6 order-2 order-xl-1 mb-3 mb-xl-0 mt-3 mt-xl-0"
-        >
+        <div class="col-12 col-xl-6 order-2">
           <img
             src="../../assets/first-time-event/media-restriction.webp"
             alt="Medya Kısıtlaması"
@@ -138,21 +92,19 @@
         </div>
       </div>
 
-      <!-- 3. Satır (Resim Solda XL) -->
+      <!-- 3. Hükümet Bazlı Kısıtlamalar -->
       <div class="row align-items-center z-row">
-        <!-- Resim Kolonu -->
-        <div class="col-12 col-xl-6 order-1 order-xl-1 mb-3 mb-xl-0">
+        <div class="col-12 col-xl-6 order-1">
           <img
             src="../../assets/first-time-event/government-imposed-restriction.webp"
             alt="Hükümet Bazlı Kısıtlamalar"
             class="z-img"
           />
         </div>
-        <!-- Metin Kolonu -->
-        <div class="col-12 col-xl-6 order-2 order-xl-2">
+        <div class="col-12 col-xl-6 order-2">
           <div class="custom-card">
             <h2 class="fw-bold">3. Hükümet Bazlı Kısıtlamalar</h2>
-            <p class="mb-0">
+            <p>
               Hükümet bazlı iletişim kısıtlamaları, ifade özgürlüğünü ve bilgiye
               erişimi doğrudan etkileyen en güçlü müdahalelerden biridir. Bu
               kısıtlamalar arasında internet sitelerine erişimin engellenmesi,
@@ -170,20 +122,12 @@
         </div>
       </div>
 
-      <!-- 4. Satır (Resim Sağda XL) -->
+      <!-- 4. Eğitimde İletişim Kısıtlaması -->
       <div class="row align-items-center z-row">
-        <!-- Metin Kolonu -->
-        <div class="col-12 col-xl-6">
-          <div
-            style="
-              background-color: #dc3545;
-              color: #fff;
-              border-radius: 8px;
-              padding: 1.5rem;
-            "
-          >
+        <div class="col-12 col-xl-6 order-1">
+          <div class="highlighted-card">
             <h2 class="fw-bold">4. Eğitimde İletişim Kısıtlaması</h2>
-            <p class="mb-0">
+            <p>
               Eğitim ortamlarında iletişim kısıtlaması; öğrencilerin,
               öğretmenlerin veya akademisyenlerin özgür düşünceyi ve bilgiyi
               paylaşamaması, ders içeriklerinin katı denetim altına alınması
@@ -199,10 +143,7 @@
             </p>
           </div>
         </div>
-        <!-- Resim Kolonu -->
-        <div
-          class="col-12 col-xl-6 order-2 order-xl-1 mb-3 mb-xl-0 mt-3 mt-xl-0"
-        >
+        <div class="col-12 col-xl-6 order-2">
           <img
             src="../../assets/first-time-event/educational-communication-restriction.webp"
             alt="Eğitimde İletişim Kısıtlaması"
@@ -249,7 +190,6 @@
         </a>
       </div>
     </div>
-    <!-- container -->
 
     <!-- Bootstrap 5 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

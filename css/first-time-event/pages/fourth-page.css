@@ -1,0 +1,50 @@
+/* Daha Açık Arka Plan ve Varsayılan Metin Rengi */
+body {
+     background-color: #f8f9fa;
+     color: #212529;
+   }
+   
+   /* Başlık Stilleri */
+   .hero-title {
+     color: #dc3545;
+   }
+   
+   .hero-subtitle {
+     color: #6c757d;
+   }
+   
+   /* Kart Tasarımı */
+   .custom-card {
+     background-color: #eeeeee;
+     border: 1px solid #dee2e6;
+     border-radius: 8px;
+     padding: 1.5rem;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+   }
+   
+   /* Kart Hover Efekti */
+   .custom-card:hover {
+     transform: scale(1.03);
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   }
+   
+   /* Özel Liste Tasarımı */
+   .custom-list {
+     font-size: 1.2rem;
+     padding-left: 1.5rem;
+   }
+   
+   .custom-list li {
+     margin-bottom: 0.5rem;
+   }
+   
+   /* Buton Hover Efekti */
+   .btn-hover {
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+   }
+   
+   .btn-hover:hover {
+     transform: scale(1.05);
+     box-shadow: 0 5px 15px rgba(0, 255, 0, 0.5);
+   }
+   

@@ -1,0 +1,38 @@
+/* Genel Arka Plan ve Metin Rengi */
+body {
+     background-color: #2a2a2a;
+     color: #f8f9fa;
+   }
+   
+   /* Başlık Rengi */
+   .section-title {
+     color: #dc3545;
+   }
+   
+   /* Kart Stili */
+   .custom-card {
+     background-color: #d5dddd;
+     color: #212529;
+     border: 1px solid #d3d3d3;
+     font-weight: 600;
+     border-radius: 8px;
+     padding: 1.5rem;
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+   }
+   
+   /* Kart Hover Efekti */
+   .custom-card:hover {
+     transform: scale(1.03);
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+   }
+   
+   /* Buton Hover Efekti */
+   .btn-hover {
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+   }
+   
+   .btn-hover:hover {
+     transform: scale(1.05);
+     box-shadow: 0 5px 15px rgba(255, 0, 0, 0.5);
+   }
+   

@@ -121,6 +121,89 @@ body {
 }
 
 /*------------------------------------*\
+  #OVERLAY
+\*------------------------------------*/
+
+#overlay {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 9999;
+  text-align: center;
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* İçerik */
+#overlayContent {
+  background-color: #111; 
+  padding: 50px;
+  border-radius: 5px;
+  border: 3px solid red; 
+  max-width: 600px;
+  color: #fff;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.7);
+}
+
+#overlayContent h2 {
+  font-size: 2rem;
+  color: red; 
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+/* Açıklama */
+#overlayContent p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 30px;
+}
+
+#devamEtBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  color: red;
+  border: 2px solid red;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+}
+
+#devamEtBtn:hover {
+  background-color: red;
+  color: black;
+  transform: scale(1.05);
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+
+
+
+/*------------------------------------*\
   #HERO SECTION
 \*------------------------------------*/
 .contact-img {
@@ -906,39 +989,4 @@ body {
   .campaign-content p {
     font-size: 0.9rem !important;
   }
-}
-
-#overlay {
-  position: fixed;
-  top: 0; 
-  left: 0;
-  width: 100vw; 
-  height: 100vh; 
-  background-color: rgba(0, 0, 0, 0.8);
-  display: flex; 
-  justify-content: center; 
-  align-items: center; 
-  z-index: 9999; 
-}
-
-#overlayContent {
-  text-align: center;
-  background-color: #fff;
-  padding: 40px;
-  border-radius: 8px;
-}
-
-#overlayContent h2 {
-  margin-bottom: 20px;
-}
-
-#devamEtBtn {
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-/* Kaplama görünürken body'yi kaydırmaya kapatmak için */
-body.no-scroll {
-  overflow: hidden;
 }

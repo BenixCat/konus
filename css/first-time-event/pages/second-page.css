@@ -1,0 +1,50 @@
+/* Genel Arka Plan ve Metin Rengi */
+body {
+     background-color: #141414;
+     color: #fff;
+   }
+   
+   /* Büyük Başlık Rengi */
+   .main-title {
+     color: #dc3545;
+   }
+   
+   /* Z-Pattern Sıralama İçin Satır Boşluğu */
+   .z-row {
+     margin-bottom: 3rem;
+   }
+   
+   /* Kart Stili */
+   .custom-card {
+     background-color: #1f1f1f;
+     border: 1px solid #dc3545;
+     border-radius: 8px;
+     padding: 1.5rem;
+   }
+   
+   /* Kırmızı Öne Çıkan Kart */
+   .highlighted-card {
+     background-color: #dc3545;
+     color: #fff;
+     border-radius: 8px;
+     padding: 1.5rem;
+   }
+   
+   /* Resim Stili */
+   .z-img {
+     width: 100%;
+     height: auto;
+     border: 3px solid #dc3545;
+     border-radius: 8px;
+   }
+   
+   /* Buton Animasyonu */
+   .btn-danger {
+     transition: transform 0.3s ease, box-shadow 0.3s ease;
+   }
+   
+   .btn-danger:hover {
+     transform: scale(1.05);
+     box-shadow: 0 5px 15px rgba(255, 0, 0, 0.5);
+   }
+   

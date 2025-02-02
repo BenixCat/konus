@@ -15,24 +15,8 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-    <style>
-      /* Bu sayfada daha açık bir renk paleti kullanıyoruz */
-      body {
-        background-color: #f8f9fa; /* Açık gri ton - çok daha açık */
-        color: #212529; /* Varsayılan metin rengi (Bootstrap) */
-      }
-      .hero-title {
-        color: #dc3545; /* Kırmızı (danger) vurgulu bir başlık rengi */
-      }
-      .hero-subtitle {
-        color: #6c757d; /* İkinci derecede bir metin rengi (bootstrap secondary) */
-      }
-      .custom-card {
-        background-color: #eeeeee;
-        border: 1px solid #dee2e6;
-        border-radius: 8px;
-      }
-    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="/css/first-time-event/pages/fourth-page.css" />
   </head>
 
   <body>
@@ -40,7 +24,7 @@
       <!-- Hero Bölümü / Başlık -->
       <div class="text-center mb-5">
         <h1 class="display-4 fw-bold hero-title">Konus!</h1>
-        <p class="lead hero-subtitle fw-bold">
+        <p class="lead fw-bold hero-subtitle">
           Özgürlüğünüz için mücadele eden, kısıtlamaları aşmayı amaçlayan bir
           girişim.
         </p>
@@ -68,7 +52,7 @@
         <div class="col-lg-8">
           <div class="custom-card p-4 mb-4">
             <h2 class="fw-bold mb-3">Konus! Nasıl Çalışır?</h2>
-            <ul class="fs-5">
+            <ul class="custom-list">
               <li>
                 <strong>Teknolojik Destek:</strong> VPN, güvenli mesajlaşma,
                 verilerin şifreli olarak paylaşımı gibi araçlara erişim sağlar.
@@ -121,7 +105,7 @@
 
       <!-- Final Buton veya Yönlendirme -->
       <div class="text-center mt-5">
-        <a href="../../../index.html" class="btn btn-success btn-lg">
+        <a href="../../../index.html" class="btn btn-success btn-lg btn-hover">
           Şimdi Konuş, Özgür Ol!
         </a>
       </div>
