@@ -9,34 +9,30 @@
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Konus! - İfade Özgürlüğü İçin">
     <meta property="og:description" content="İfade özgürlüğü ve basın özgürlüğünü savunan sivil toplum kuruluşu">
-    <meta property="og:image" content="aassets/img/konus-logo.png">
+    <meta property="og:image" content="assets/img/konus-logo.png">
     <meta property="og:url" content="https://www.konus.org">
     
     <title>Konus!</title>
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/fav-icon.ico">
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/fav-icon.ico">
+    <link rel="icon" type="image/x-icon" href="assets/icons/fav-icon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/fav-icon.ico">
     
     <!-- Styles -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     
     <!-- Core CSS -->
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/navigation.css">
-    <link rel="stylesheet" href="css/upadated-nav.css">
+    <link rel="stylesheet" href="css/general/footer.css">
+    <link rel="stylesheet" href="css/general/navigation.css">
+    <link rel="stylesheet" href="css/general/background.css">
     
     <!-- Feature CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/index-map-preview.css">
-    <link rel="stylesheet" href="css/top-campaigns.css">
-    <link rel="stylesheet" href="css/join-us.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/main/style.css">
     
     <!-- Preload Critical Resources -->
-    <link rel="preload" href="assets/img/konus-logo.png" as="image">
-    <link rel="preload" href="css/style.css" as="style">
+    <link rel="preload" href="assets/logo/konus-logo.png" as="image">
+    <link rel="preload" href="css/main/style.css" as="style">
     
     <!-- Canonical URL -->
     <link rel="canonical" href="https://www.konus.org">
@@ -47,7 +43,7 @@
      class="navbar navbar-expand-lg navbar-dark fixed-top nav-nav py-2 bg-dark navigation"
    >
      <div class="container navigation-container">
-       <a class="navbar-brand pt-0 link-light navigation-brand-title" href="#"
+       <a class="navbar-brand pt-0 link-light navigation-brand-title" href="index.html"
          >Konus!</a
        >
        <button
@@ -63,14 +59,14 @@
            <li class="nav-item">
              <a
                class="nav-link btn btn-outline-info link-light me-1 navigation-link-spc"
-               href="#"
+               href="pages/about/index.html"
                >Hakkımızda</a
              >
            </li>
            <li class="nav-item">
              <a
                class="nav-link btn btn-outline-info navigation-link-spc link-light me-1"
-               href="#"
+               href="pages/campaigns/index.html"
                >Kampanyalar</a
              >
            </li>
@@ -81,21 +77,21 @@
                        Keşfet
                    </a>
                    <ul class="dropdown-menu">
-                       <li><a class="dropdown-item" href="#">Makaleler</a></li>
+                       <li><a class="dropdown-item" href="pages/articles/index.html">Makaleler</a></li>
                        
                        <!-- Submenu -->
                        <li class="dropdown">
-                           <a class="dropdown-item" href="#">Hikayeler ve Röportajlar</a>
+                           <a class="dropdown-item" href="pages/stories-reports/index.html">Hikayeler ve Röportajlar</a>
 
                        </li>
-                       <li><a class="dropdown-item" href="#">Haberler</a></li>
-                       <li><a class="dropdown-item" href="#">Kaynakça</a></li>
+                       <li><a class="dropdown-item" href="pages/news/index.html">Haberler</a></li>
+                       <li><a class="dropdown-item" href="pages/sources/index.html">Kaynakça</a></li>
                        <li><hr class="dropdown-divider" /></li>
                        
                        <li class="nav-item">
                         <a
                           class="dropdown-item"
-                          href="#"
+                          href="pages/index-map/index.html"
                           >Dünya Basın Özgürlüğü Haritası</a
                         >
                       </li>
@@ -118,17 +114,17 @@
              </a>
              <ul class="dropdown-menu">
                <li>
-                 <a class="dropdown-item btn btn-outline-info" href="#"
+                 <a class="dropdown-item btn btn-outline-info" href="pages/about/index.html"
                    >Hakkımızda</a
                  >
                </li>
                <li>
-                 <a class="dropdown-item btn btn-outline-info" href="#"
+                 <a class="dropdown-item btn btn-outline-info" href="pages/contact/index.html"
                    >İletişim</a
                  >
                </li>
                <li>
-                 <a class="dropdown-item btn btn-outline-info" href="#"
+                 <a class="dropdown-item btn btn-outline-info" href="pages/contact/index.html#map"
                    >Bulunduğumuz Ülkeler</a
                  >
                </li>
@@ -148,19 +144,19 @@
                <li>
                  <a
                    class="dropdown-item btn btn-outline-info"
-                   href="join-us.html"
+                   href="pages/join/index.html"
                    >Bize Katıl</a
                  >
                </li>
                <li>
                  <a
                    class="dropdown-item btn btn-outline-info"
-                   href="bevolunteer.html"
+                   href="pages/join/be-volunteer/bevolunteer.html"
                    >Gönüllü Ol</a
                  >
                </li>
                <li>
-                 <a class="dropdown-item btn btn-outline-info" href="#"
+                 <a class="dropdown-item btn btn-outline-info" href="pages/join/newsletter/newsletter.html"
                    >Bültene Katıl</a
                  >
                </li>
@@ -169,7 +165,7 @@
            <li class="nav-item">
              <a
                class="btn btn-danger link-light ms-0 ms-lg-2 navigation-link-spc navigation-donate-btn"
-               href="#donate"
+               href="pages/donate/index.html"
                >Bağış &hearts;</a
              >
            </li>
@@ -184,10 +180,10 @@
     <h1 class="main-title mb-4 display-1 text-center ">Konus!</h1>  
     <h3 class="sub-title fs-2 mb-3">İletişim Temelimizdir</h3>
     <div class="hero-buttons text-center mt-4">
-      <a href="#take-action" class="btn btn-primary me-3"
+      <a href="pages/donate/index.html" class="btn btn-primary me-3"
         >Aksiyon Al</a
       >
-      <a href="#learn-more" class="btn btn-outline-light mt-3 ">Daha Fazla</a>
+      <a href="pages/join/index.html" class="btn btn-outline-light mt-3 ">Daha Fazla</a>
     </div>
   </div>
 </div>
@@ -203,7 +199,7 @@
         <div class="stat-label">Aktif Ülke</div>
       </article>
       <article class="col-md-3 stat-item">
-        <div class="stat-number" data-target="3000000">3000000+</div>
+        <div class="stat-number" data-target="3000000">3M+</div>
         <div class="stat-label">Global Destekçi</div>
       </article>
       <article class="col-md-3 stat-item">
@@ -237,11 +233,11 @@
             <p>Küresel ölçekte ifade özgürlüğünün güvence altına alındığı, çoğulcu ve demokratik bir toplum inşa etmek.</p>
           </div>
         </div>
-        <a href="about.html" class="btn btn-primary">Hakkımızda</a>
+        <a href="pages/about/index.html" class="btn btn-primary">Hakkımızda</a>
       </div>
       <div class="col-lg-5 d-none d-lg-block">
         <div class="about-image-container">
-          <img src="assets/modern-bright-office-space-with-diverse-group-of-y (1).png" alt="Konus! Ekibi" class="img-fluid rounded shadow">
+          <img src="assets/main/main-about-us.webp" alt="Konus! Ekibi" class="img-fluid rounded shadow">
         </div>
       </div>
     </div>
@@ -261,7 +257,7 @@
       <!-- Haber 1 -->
       <div class="col-lg-4">
         <div class="card h-100 border-0 shadow-sm">
-          <img src="assets/cemal-kasikci.png" class="card-img-top" alt="Cemal Kaşıkçı haberi görseli" style="height: 200px; object-fit: cover;">
+          <img src="assets/main/main-cemal-kasikci-16-9.webp" class="card-img-top" alt="Cemal Kaşıkçı haberi görseli" style="height: 200px; object-fit: cover;">
           <div class="card-body">
             <div class="d-flex justify-content-between mb-2">
               <span class="badge bg-danger">Önemli</span>
@@ -271,7 +267,7 @@
             <p class="card-text">2018'de Suudi gazeteci Cemal Kaşıkçı, Suudi Arabistan'ın İstanbul Başkonsolosluğu'nda vahşice öldürüldü. Bu olay, gazetecilere yönelik şiddetin küresel çapta bir sembolü haline geldi.</p>
           </div>
           <div class="card-footer bg-transparent border-0">
-            <a href="news/news.html" class="btn btn-link text-primary p-0">
+            <a href="pages/news/titles/violence-threats-cemal-kasikci.html" class="btn btn-link text-primary p-0">
               Devamını Oku
               <i class="fas fa-arrow-right ms-2"></i>
             </a>
@@ -282,7 +278,7 @@
       <!-- Haber 2 -->
       <div class="col-lg-4">
         <div class="card h-100 border-0 shadow-sm">
-          <img src="assets/rappler.png" class="card-img-top" alt="Maria Ressa haberi görseli" style="height: 200px; object-fit: cover;">
+          <img src="assets/main/main-rappler.webp" class="card-img-top" alt="Maria Ressa haberi görseli" style="height: 200px; object-fit: cover;">
           <div class="card-body">
             <div class="d-flex justify-content-between mb-2">
               <span class="badge bg-warning text-dark">Güncel</span>
@@ -292,7 +288,7 @@
             <p class="card-text">Filipinlerli gazeteci Maria Ressa, hükümetin yolsuzluklarını ifşa eden haberleri nedeniyle yasal davalar ve tutuklamalarla karşı karşıya kaldı. 2021 yılında Nobel Barış Ödülü alması, basın özgürlüğüne yönelik tehditlere dikkat çekti.</p>
           </div>
           <div class="card-footer bg-transparent border-0">
-            <a href="news/news.html" class="btn btn-link text-primary p-0">
+            <a href="pages/news/titles/unlawful-detentions-ressa.html" class="btn btn-link text-primary p-0">
               Devamını Oku
               <i class="fas fa-arrow-right ms-2"></i>
             </a>
@@ -303,7 +299,7 @@
       <!-- Haber 3 -->
       <div class="col-lg-4">
         <div class="card h-100 border-0 shadow-sm">
-          <img src="assets/internet-block.png" class="card-img-top" alt="İran internet kesintileri haberi görseli" style="height: 200px; object-fit: cover;">
+          <img src="assets/main/internet-16-9.webp" class="card-img-top" alt="İran internet kesintileri haberi görseli" style="height: 200px; object-fit: cover;">
           <div class="card-body">
             <div class="d-flex justify-content-between mb-2">
               <span class="badge bg-info">Analiz</span>
@@ -313,7 +309,7 @@
             <p class="card-text">İran hükümeti, protestolar sırasında ülke genelinde interneti keserek bilgi akışını durdurdu. Bu kısıtlama, insan hakları ihlalleri ve hükümet baskısının dünya çapında tartışılmasına neden oldu.</p>
           </div>
           <div class="card-footer bg-transparent border-0">
-            <a href="news/news.html" class="btn btn-link text-primary p-0">
+            <a href="pages/news/titles/internet-restrictions-iran.html" class="btn btn-link text-primary p-0">
               Devamını Oku
               <i class="fas fa-arrow-right ms-2"></i>
             </a>
@@ -323,7 +319,7 @@
     </div>
 
     <div class="text-center mt-4">
-      <a href="news/news.html" class="btn btn-primary btn-lg">
+      <a href="pages/news/index.html" class="btn btn-primary btn-lg">
         Tüm Haberleri Gör
         <i class="fas fa-arrow-right ms-2"></i>
       </a>
@@ -338,7 +334,7 @@
     <div class="row align-items-center">
       <div class="col-md-6">
         <div class="map-preview-image">
-          <img src="assets/interactiv-map-preview.png" alt="Dünya Basın Özgürlüğü Haritası Önizleme" class="img-fluid rounded shadow-lg">
+          <img src="assets/main/main-interactiv-map-preview.webp" alt="Dünya Basın Özgürlüğü Haritası Önizleme" class="img-fluid rounded shadow-lg">
         </div>
       </div>
       <div class="col-md-6">
@@ -348,7 +344,7 @@
             Bu interaktif harita, dünya genelindeki basın özgürlüğü durumunu görselleştirmek için tasarlandı. 
             Ülkelerin basın özgürlüğü seviyelerini keşfedin ve güncel verilere erişin.
           </p>
-          <a href="#map" class="btn btn-primary btn-lg">
+          <a href="pages/index-map/index.html" class="btn btn-primary btn-lg">
             Haritayı Keşfet
             <i class="fas fa-arrow-right ms-2"></i>
           </a>
@@ -375,9 +371,9 @@
               <div class="calculator-wrapper h-100">
                   <div class="impact-slider mb-4">
                       <label>Aylık Katkı</label>
-                      <input type="range" min="10" max="500" value="25" class="impact-range" id="donationSlider">
+                      <input type="range" min="5" max="500" value="25" class="impact-range" id="donationSlider">
                       <div class="range-values">
-                          <span>₺10</span>
+                          <span>₺5</span>
                           <span class="current-value">₺25</span>
                           <span>₺500</span>
                       </div>
@@ -434,8 +430,8 @@
                       </div>
                   </div>
                   <div class="text-center">
-                      <span class="d-block text-white-50 mb-3">Aylık minimum katkı tutarı: ₺10</span>
-                      <a href="/bagis" class="btn btn-light btn-lg w-100">
+                      <span class="d-block text-white-50 mb-3">Aylık minimum katkı tutarı: ₺5</span>
+                      <a href="pages/donate/index.html" class="btn btn-light btn-lg w-100">
                           <i class="fas fa-heart me-2 text-danger"></i>
                           Şimdi Bağış Yap
                       </a>
@@ -461,7 +457,7 @@
           <p class="card-text">
             Projelerimizde yer alın ve insan hakları mücadelesinde aktif rol oynayın. Birlikte daha güçlüyüz!
           </p>
-          <a href="be-volunteer/bevolunteer.html" class="btn btn-outline-info">Gönüllü Ol</a>
+          <a href="pages/join/be-volunteer/bevolunteer.html" class="btn btn-outline-info">Gönüllü Ol</a>
         </div>
       </div>
     </div>
@@ -477,7 +473,7 @@
           <p class="card-text">
             E-posta bültenimize katılın, güncel gelişmelerden ve kampanyalarımızdan haberdar olun.
           </p>
-          <a href="newsletter/newsletter.html" class="btn btn-outline-success">Bültene Katıl</a>
+          <a href="pages/join/newsletter/newsletter.html" class="btn btn-outline-success">Bültene Katıl</a>
         </div>
       </div>
     </div>
@@ -493,7 +489,7 @@
           <p class="card-text">
             Desteğinizle daha fazla insana ulaşabilir, daha fazla ses olabiliriz. Her katkı değerlidir.
           </p>
-          <a href="#" class="btn btn-outline-danger">Bağış Yap</a>
+          <a href="pages/donate/index.html" class="btn btn-outline-danger">Bağış Yap</a>
         </div>
       </div>
     </div>
@@ -515,7 +511,7 @@
         <div class="col-12 col-md-6 col-xl-4">
           <div class="campaign-card">
             <div class="campaign-image">
-              <img src="assets/fight-censorship.png" alt="Sansüre Karşı Ses kampanya görseli" class="img-fluid"/>
+              <img src="assets/main/main-fight-censorship.webp" alt="Sansüre Karşı Ses kampanya görseli" class="img-fluid"/>
               <div class="urgency-badge">Acil</div>
             </div>
             <div class="campaign-content">
@@ -528,15 +524,14 @@
                 <div class="progress-bar bg-success" style="width: 47%" role="progressbar" aria-valuenow="47" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <div class="d-flex justify-content-between mb-2 campaign-stats">
-                <span>120.500 imza toplandı</span>
+                <span>120.500 toplandı</span>
                 <span>Hedef: 250.000</span>
               </div>
               <div class="campaign-footer">
                 <p class="text-muted mb-2">Son Gün: 20 Mart 2025</p>
                 <p class="fs-6 mb-2">Nasıl Destek Olabilirsiniz?</p>
                 <div class="btn-group w-100">
-                  <a href="#" class="btn btn-outline-primary">İmzanı Ekle</a>
-                  <a href="#" class="btn btn-outline-primary">Bağış Yap</a>
+                  <a href="pages/donate/index.html" class="btn btn-outline-primary">Bağış Yap</a>
                 </div>
               </div>
             </div>
@@ -547,7 +542,7 @@
         <div class="col-12 col-md-6 col-xl-4">
           <div class="campaign-card">
             <div class="campaign-image">
-              <img src="assets/free-jailed-journalists.png" alt="Tutuklu Gazeteciler kampanya görseli" class="img-fluid"/>
+              <img src="assets/main/main-free-jailed-journalists.webp" alt="Tutuklu Gazeteciler kampanya görseli" class="img-fluid"/>
               <div class="urgency-badge">Acil</div>
             </div>
             <div class="campaign-content">
@@ -560,15 +555,14 @@
                 <div class="progress-bar bg-success" style="width: 75%" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <div class="d-flex justify-content-between mb-2 campaign-stats">
-                <span>310.000 imza toplandı</span>
+                <span>310.000 toplandı</span>
                 <span>Hedef: 500.000</span>
               </div>
               <div class="campaign-footer">
                 <p class="text-muted mb-2">Son Gün: 15 Nisan 2025</p>
                 <p class="fs-6 mb-2">Nasıl Destek Olabilirsiniz?</p>
                 <div class="btn-group w-100">
-                  <a href="#" class="btn btn-outline-primary">İmzanı Ekle</a>
-                  <a href="#" class="btn btn-outline-primary">Bağış Yap</a>
+                  <a href="pages/donate/index.html" class="btn btn-outline-primary">Bağış Yap</a>
                 </div>
               </div>
             </div>
@@ -579,7 +573,7 @@
         <div class="col-12 col-md-6 col-xl-4">
           <div class="campaign-card">
             <div class="campaign-image">
-              <img src="assets/support-women-journalists.png" alt="Kadın Gazeteciler kampanya görseli" class="img-fluid"/>
+              <img src="assets/main/main-support-women-journalists.webp" alt="Kadın Gazeteciler kampanya görseli" class="img-fluid"/>
               <div class="urgency-badge">Acil</div>
             </div>
             <div class="campaign-content">
@@ -592,15 +586,14 @@
                 <div class="progress-bar bg-success" style="width: 40%" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
               <div class="d-flex justify-content-between mb-2 campaign-stats">
-                <span>95.000 imza toplandı</span>
+                <span>95.000 toplandı</span>
                 <span>Hedef: 200.000</span>
               </div>
               <div class="campaign-footer">
                 <p class="text-muted mb-2">Son Gün: 5 Mayıs 2025</p>
                 <p class="fs-6 mb-2">Nasıl Destek Olabilirsiniz?</p>
                 <div class="btn-group w-100">
-                  <a href="#" class="btn btn-outline-primary">İmzanı Ekle</a>
-                  <a href="#" class="btn btn-outline-primary">Bağış Yap</a>
+                  <a href="pages/donate/index.html" class="btn btn-outline-primary">Bağış Yap</a>
                 </div>
               </div>
             </div>
@@ -609,7 +602,7 @@
       </div>
     </div>
     <div class="text-center mt-4">
-      <a href="campaigns/campaigns.html" class="btn btn-primary btn-lg">Tüm Kampanyaları Gör</a>
+      <a href="pages/campaigns/index.html" class="btn btn-primary btn-lg">Tüm Kampanyaları Gör</a>
     </div>
   </div>
 </section>
@@ -651,7 +644,7 @@
                 İşaretli bölgelerdeki yerel temsilcilerimizle iletişime geçebilirsiniz. İşaretlerin üzerine tıklayarak o bölgedeki iletişim bilgilerine ulaşabilirsiniz. Daha detaylı bilgi için aşağıdaki butona tıklayabilirsiniz.
               </p>
             </div>
-            <a href="#" class="btn btn-primary mt-auto">
+            <a href="pages/contact/index.html" class="btn btn-primary mt-auto">
               İletişim
               <i class="fas fa-arrow-right ms-2"></i>
             </a>
@@ -707,7 +700,7 @@
       <!-- Malala Hikayesi -->
       <div class="col-lg-4">
         <div class="card h-100 border-0 shadow-sm">
-          <img src="assets/m4dpq85o_malala-yousafzai-afp_625x300_12_January_25.wpe.jpeg" class="card-img-top" alt="Malala Yousafzai" style="height: 250px; object-fit: cover;">
+          <img src="assets/main/main-malala.webp" class="card-img-top" alt="Malala Yousafzai" style="height: 250px; object-fit: cover;">
           <div class="card-body">
             <div class="d-flex justify-content-between mb-2">
               <span class="badge bg-primary">Hikaye</span>
@@ -716,10 +709,10 @@
             <h5 class="card-title">Malala Yousafzai</h5>
             <p class="card-text">Nobel ödüllü aktivist Malala'nın eğitim hakkı için verdiği mücadele ve ilham verici hikayesi.</p>
             <div class="mt-3">
-              <a href="basari-hikayeleri/individual-stories/malala.html" class="btn btn-outline-primary me-2">
+              <a href="pages/stories-reports/stories/malala.html" class="btn btn-outline-primary me-2">
                 Hikayeyi Oku
               </a>
-              <a href="basari-hikayeleri/reports/report-malala.html" class="btn btn-link text-primary">
+              <a href="pages/stories-reports/reports/report-malala.html" class="btn btn-link text-primary">
                 Röportajı Oku
                 <i class="fas fa-arrow-right ms-1"></i>
               </a>
@@ -731,7 +724,7 @@
       <!-- Greta Hikayesi -->
       <div class="col-lg-4">
         <div class="card h-100 border-0 shadow-sm">
-          <img src="assets/greta-thunberg.webp" class="card-img-top" alt="Greta Thunberg" style="height: 250px; object-fit: cover;">
+          <img src="assets/main/main-greta-thunberg.webp" class="card-img-top" alt="Greta Thunberg" style="height: 250px; object-fit: cover;">
           <div class="card-body">
             <div class="d-flex justify-content-between mb-2">
               <span class="badge bg-success">Hikaye</span>
@@ -740,10 +733,10 @@
             <h5 class="card-title">Greta Thunberg</h5>
             <p class="card-text">Genç iklim aktivisti Greta'nın çevre hakları için başlattığı küresel hareket ve mücadelesi.</p>
             <div class="mt-3">
-              <a href="basari-hikayeleri/individual-stories/greta.html" class="btn btn-outline-primary me-2">
+              <a href="pages/stories-reports/stories/greta.html" class="btn btn-outline-primary me-2">
                 Hikayeyi Oku
               </a>
-              <a href="basari-hikayeleri/reports/report-greta.html" class="btn btn-link text-primary">
+              <a href="pages/stories-reports/reports/report-greta.html" class="btn btn-link text-primary">
                 Röportajı Oku
                 <i class="fas fa-arrow-right ms-1"></i>
               </a>
@@ -755,7 +748,7 @@
       <!-- Nelson Mandela Hikayesi -->
       <div class="col-lg-4">
         <div class="card h-100 border-0 shadow-sm">
-          <img src="assets/mandela.jpg" class="card-img-top" alt="Nelson Mandela" style="height: 250px; object-fit: cover;">
+          <img src="assets/main/main-mandela.webp" class="card-img-top" alt="Nelson Mandela" style="height: 250px; object-fit: cover;">
           <div class="card-body">
             <div class="d-flex justify-content-between mb-2">
               <span class="badge bg-info">Hikaye</span>
@@ -764,10 +757,10 @@
             <h5 class="card-title">Nelson Mandela</h5>
             <p class="card-text">Güney Afrika'nın özgürlük mücadelesinin sembol ismi Mandela'nın eşitlik ve adalet yolculuğu.</p>
             <div class="mt-3">
-              <a href="basari-hikayeleri/individual-stories/mandela.html" class="btn btn-outline-primary me-2">
+              <a href="pages/stories-reports/stories/mandela.html" class="btn btn-outline-primary me-2">
                 Hikayeyi Oku
               </a>
-              <a href="basari-hikayeleri/reports/report-mandela.html" class="btn btn-link text-primary">
+              <a href="pages/stories-reports/reports/report-mandela.html" class="btn btn-link text-primary">
                 Röportajı Oku
                 <i class="fas fa-arrow-right ms-1"></i>
               </a>
@@ -778,7 +771,7 @@
     </div>
 
     <div class="text-center mt-5">
-      <a href="basari-hikayeleri/reports-stories.html" class="btn btn-primary btn-lg">
+      <a href="pages/stories-reports/index.html" class="btn btn-primary btn-lg">
         Tüm Hikayeleri ve Röportajları Gör
         <i class="fas fa-arrow-right ms-2"></i>
       </a>
@@ -796,7 +789,7 @@
       <div class="col-md-4">
         <div class="card h-100 shadow-sm article-card animate-slideInLeft animate-delay-1">
           <div class="img-wrapper">
-            <img src="assets/democracy_vs_control.png" class="card-img-top" alt="Özgürlük ve Güvenlik">
+            <img src="assets/main/democracy_vs_control.webp" class="card-img-top" alt="Özgürlük ve Güvenlik">
           </div>
           <div class="card-body">
             <div class="d-flex justify-content-between mb-2">
@@ -805,7 +798,7 @@
             </div>
             <h5 class="card-title">Haklar ve Tehditler: Acil Durumlarda Bireysel Özgürlükler</h5>
             <p class="card-text">Dijital çağda ifade özgürlüğü ve güvenlik arasındaki hassas denge...</p>
-            <a href="articles/article/balance.html" class="btn btn-primary">Makaleye Git</a>
+            <a href="pages/articles/article/balance.html" class="btn btn-primary">Makaleye Git</a>
           </div>
         </div>
       </div>
@@ -814,7 +807,7 @@
       <div class="col-md-4">
         <div class="card h-100 shadow-sm article-card animate-slideInLeft animate-delay-2">
           <div class="img-wrapper">
-            <img src="assets/freedom_or_security.png" class="card-img-top" alt="Demokrasi ve Haklar">
+            <img src="assets/main/balance_of_rights.webp" class="card-img-top" alt="Demokrasi ve Haklar">
           </div>
           <div class="card-body">
             <div class="d-flex justify-content-between mb-2">
@@ -823,7 +816,7 @@
             </div>
             <h5 class="card-title">Bireysel Özgürlük mü, Toplum Güvenliği mi?</h5>
             <p class="card-text">Acil durumlarda hakların askıya alınması ve toplumsal güvenlik dengesi...</p>
-            <a href="articles/article/democracy.html" class="btn btn-primary">Makaleye Git</a>
+            <a href="pages/articles/article/democracy.html" class="btn btn-primary">Makaleye Git</a>
           </div>
         </div>
       </div>
@@ -832,7 +825,7 @@
       <div class="col-md-4">
         <div class="card h-100 shadow-sm article-card animate-slideInLeft animate-delay-3">
           <div class="img-wrapper">
-            <img src="assets/justice_vs_security.png" class="card-img-top" alt="Devlet ve Yetki">
+            <img src="assets/main/justice_vs_security.webp" class="card-img-top" alt="Devlet ve Yetki">
           </div>
           <div class="card-body">
             <div class="d-flex justify-content-between mb-2">
@@ -841,14 +834,14 @@
             </div>
             <h5 class="card-title">Toplumsal Demokrasi, Güvenlik ve Özgürlük</h5>
             <p class="card-text">Kriz zamanlarında devletin yetki sınırları ve demokratik değerler...</p>
-            <a href="articles/article/security.html" class="btn btn-primary">Makaleye Git</a>
+            <a href="pages/articles/article/security.html" class="btn btn-primary">Makaleye Git</a>
           </div>
         </div>
       </div>
     </div>
 
     <div class="text-center mt-4">
-      <a href="articles/index.html" class="btn btn-outline-primary btn-lg animate-fadeInUp animate-delay-3">
+      <a href="pages/articles/index.html" class="btn btn-outline-primary btn-lg animate-fadeInUp animate-delay-3">
         <i class="fas fa-book me-2"></i>
         Tüm Makaleleri Gör
       </a>
@@ -883,7 +876,7 @@
                  class="btn btn-primary mt-3">Raporu İndir</a>
             </div>
             <div class="research-image">
-              <img src="assets/a-modern-and-professional-report-cover-featuring-a (2).png" alt="Research Report">
+              <img src="assets/main/main-report-cover.webp" alt="Research Report">
             </div>
           </div>
         </div>
@@ -896,7 +889,7 @@
                 <div class="resource-content">
                   <h4>Eğitim Kaynakları</h4>
                   <p>İnsan hakları eğitimi için öğretim materyalleri ve kılavuzlar</p>
-                  <a href="#" class="btn btn-sm btn-outline-primary">Makaleler</a>
+                  <a href="pages/articles/index.html" class="btn btn-sm btn-outline-primary">Makaleler</a>
                 </div>
               </div>
             </div>
@@ -907,7 +900,7 @@
                 <div class="resource-content">
                   <h4>Data & İstatistikler</h4>
                   <p>İnsan hakları veri görselleştirme ve analizi Verileri Görüntüle <br>(Sayfanın Üst Kısmında)</p>
-                  <a href="#map" class="btn btn-sm btn-outline-primary">İncele</a>
+                  <a href="pages/index-map/index.html" class="btn btn-sm btn-outline-primary">İncele</a>
                 </div>
               </div>
             </div>
@@ -922,8 +915,8 @@
 </div>
 <!-- Container End -->
 
-<!-- Footer Start -->
-<footer class="mt-4">
+<!-- Footer -->
+<footer class="mt-5">
   <div class="footer-light"></div>
   <ul class="social-icon footer-content">
     <li>
@@ -940,15 +933,20 @@
     </li>
   </ul>
   <ul class="menu">
-    <li><a href="#">Ana sayfa</a></li>
-    <li><a href="#">Hakkımızda</a></li>
-    <li><a href="#">Ülkeler</a></li>
-    <li><a href="#">Takım</a></li>
-    <li><a href="#">İletişim</a></li>
+    <li>
+      <a href="index.html">Ana sayfa</a>
+    </li>
+    <li>
+      <a href="pages/about/index.html">Hakkımızda</a>
+    </li>
+    <li>
+      <a href="pages/contact/index.html#map">Ülkeler</a>
+    </li>
+    <li><a href="pages/team/index.html">Takım</a></li>
+    <li><a href="pages/contact/index.html">İletişim</a></li>
   </ul>
-  <p>&copy;2025 Konus | Tüm Hakları Saklıdır</p>
+  <p>&copy;2025 Konus | Tüm Hakları Saklıdırr</p>
 </footer>
-<!-- Footer End -->
  
 <!-- Scripts -->
        <!-- Icons Start  -->
@@ -978,6 +976,6 @@
   integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
   crossorigin="anonymous"
 ></script>
-
+<script src="javascript/main/app.js"></script>
   </body>
 </html>

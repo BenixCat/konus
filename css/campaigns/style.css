@@ -8,7 +8,7 @@
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.7)
     ),
-    url('../assets/img/campaigns-main-img.png');
+    url('../../assets/campaign/campaign-background.webp');
   flex-direction: column;
 }
 

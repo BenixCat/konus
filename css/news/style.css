@@ -48,14 +48,14 @@ aside ul li a:hover{
 /* ==========================================================================
    About Section Styles
    ========================================================================== */
-.about-us-img {
-    height: 80vh;
+.content-img {
+    height: 95vh;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.7)
       ),
-      url("../assets/img/landing-image.png");
+      url("../../assets/news/news-background.webp");
   }
   
   /* ==========================================================================

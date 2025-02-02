@@ -134,7 +134,7 @@ body {
     rgba(0, 0, 0, 0.4),
     rgba(0, 0, 0, 0.5)
   ),
-  url("../assets/hero-background-dark.jpg");
+  url("../../assets/main/main-background-dark.webp");
   display: flex;
   flex-direction: column;
   justify-content: center;

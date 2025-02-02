@@ -1,14 +1,14 @@
 /* ==========================================================================
    Hero Section Styles
    ========================================================================== */
-.about-us-img { 
-     height: 75vh;
+.content-img { 
+     height: 90vh;
      background-image: linear-gradient(
          rgba(0, 0, 0, 0.2),
          rgba(0, 0, 0, 0.4),
          rgba(0, 0, 0, 0.7)
        ),
-       url("../assets/a-modern-and-visually-appealing-donation-concept--.png");
+       url("../../assets/donate/donate-background.webp");
 }
 
 /* ==========================================================================

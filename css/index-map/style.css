@@ -2,13 +2,12 @@
 ----------------------------------------*/
 body {
      display: grid;
+     justify-content: center;
 }
-
 /* Container Styles
 ----------------------------------------*/
 .map-container{
      margin: 0 auto;
-     margin-top: 100px;
 }
 
 .tableauPlaceholder{

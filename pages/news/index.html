@@ -1,9 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-padding-top: 110px;">
+<html lang="tr" style="scroll-padding-top: 110px;">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Konus! | Haberler</title>
+    <meta name="description" content="Konus - Haberler">
+    <meta name="keywords" content="Konus!, Haberler">
+    <meta name="author" content="BenixCat">
+    <title>Konus! - Haberler</title>
     <!-- Bootstrap Start -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -11,23 +14,29 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <!-- Bootstrap End -->
+    
     <!-- General Css -->
-    <link rel="stylesheet" href="css/navigation.css" />
-    <link rel="stylesheet" href="css/footer.css" />
-    <link rel="stylesheet" href="css/reseach.css">
-    <!-- Special CSS -->
-    <link rel="stylesheet" href="css/news.css">
-    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="../../css/general/footer.css">
+    <link rel="stylesheet" href="../../css/general/navigation.css">
+    <link rel="stylesheet" href="../../css/general/background.css">
+    
+    <!-- Special Css -->
+    <link rel="stylesheet" href="../../css/news/style.css">
+   
+    <!-- Fontawesome CDN Link -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <!-- Favicon -->
+   <link rel="icon" type="image/x-icon" href="../../assets/icons/fav-icon.ico" />
   </head>
   <body>
-    <!-- Navigation Start -->
-    <nav
+      <!-- Navigation Start -->
+      <nav
       class="navbar navbar-expand-lg navbar-dark fixed-top nav-nav py-2 bg-dark navigation"
-    >
+      >
       <div class="container navigation-container">
-        <a class="navbar-brand pt-0 link-light navigation-brand-title" href="#"
-          >Konus!</a
+        <a class="navbar-brand pt-0 link-light navigation-brand-title" href="../../index.html"
+        >Konus!</a
         >
         <button
           class="navbar-toggler"
@@ -42,73 +51,66 @@
             <li class="nav-item">
               <a
                 class="nav-link btn btn-outline-info link-light me-1 navigation-link-spc"
-                href="#"
+                href="index.html"
                 >Hakkımızda</a
               >
             </li>
             <li class="nav-item">
               <a
                 class="nav-link btn btn-outline-info navigation-link-spc link-light me-1"
-                href="#"
+                href="../campaigns/index.html"
                 >Kampanyalar</a
               >
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle active"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Keşfet
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Makaleler</a
-                  >
+               <li class="nav-item dropdown">
+                    <a class="nav-link btn btn-outline-info navigation-link-spc link-light me-1 dropdown-toggle" 
+                       href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                       >Keşfet</a
+                       >
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="../articles/index.html">Makaleler</a></li>
+                        
+                        <!-- Submenu -->
+                        <li>
+                          <a class="dropdown-item" href="../stories-reports/index.html"
+                          >Hikayeler ve Röportajlar</a
+                            >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="../news/index.html"
+                          >Haberler</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="../sources/index.html"
+                          >Kaynakça</a
+                          >
+                        </li>
+                        <li>
+                          <hr class="dropdown-divider" />
+                        </li>
+                        
+                        <li class="nav-item">
+                         <a
+                           class="dropdown-item"
+                           href="../index-map/index.html"
+                           >Dünya Basın Özgürlüğü Haritası</a
+                         >
+                       </li>
+                        
+                
+                        <li>
+                          <hr class="dropdown-divider" />
+                        </li>
+                        <li>
+                          <a class="dropdown-item disabled" href="#"
+                          >Blog (Çok Yakında...)</a
+                          >
+                        </li>
+                    </ul>
                 </li>
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Başarı Hikayeleri</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Hikayeler ve Röportajlar</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item btn btn-outline-info active" href="#"
-                    >Haberler</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Hakkını Keşfet</a
-                  >
-                </li>
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Kaynakça</a
-                  >
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Dünya Basın Özgürlüğü Haritası</a
-                  >
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a
-                    class="dropdown-item btn btn-outline-info disabled"
-                    href="#"
-                    >Blog (Çok Yakında...)</a
-                  >
-                </li>
-              </ul>
+                
             </li>
             <li class="nav-item dropdown">
               <a
@@ -122,17 +124,17 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
+                  <a class="dropdown-item btn btn-outline-info" href="../about/index.html"
                     >Hakkımızda</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
+                  <a class="dropdown-item btn btn-outline-info" href="../contact/index.html"
                     >İletişim</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
+                  <a class="dropdown-item btn btn-outline-info" href="../contact/index.html#map"
                     >Bulunduğumuz Ülkeler</a
                   >
                 </li>
@@ -152,20 +154,20 @@
                 <li>
                   <a
                     class="dropdown-item btn btn-outline-info"
-                    href="join-us.html"
+                    href="../join/index.html"
                     >Bize Katıl</a
                   >
                 </li>
                 <li>
                   <a
                     class="dropdown-item btn btn-outline-info"
-                    href="bevolunteer.html"
+                    href="../join/be-volunteer/bevolunteer.html"
                     >Gönüllü Ol</a
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item btn btn-outline-info" href="#"
-                    >Haberdar Ol</a
+                  <a class="dropdown-item btn btn-outline-info" href="../join/newsletter/newsletter.html"
+                    >Bültene Katıl</a
                   >
                 </li>
               </ul>
@@ -173,20 +175,20 @@
             <li class="nav-item">
               <a
                 class="btn btn-danger link-light ms-0 ms-lg-2 navigation-link-spc navigation-donate-btn"
-                href="#donate"
+                href="../donate/index.html"
                 >Bağış &hearts;</a
               >
             </li>
           </ul>
         </div>
       </div>
-    </nav>
-    <!-- Navigation End -->
+      </nav>
+      <!-- Navigation End -->
 
     <!-- Main Image Start -->
 <div class="col-12 ">
-  <div class="about-us-img">
-    <h1 class="main-title ">Haberler</h1>
+  <div class="content-img d-flex justify-content-center align-items-center">
+    <h1 class="main-title">Haberler</h1>
   </div>
 <!-- Main Image End -->
 
@@ -209,7 +211,7 @@
           <div class="col card mb-3" id="article1">
             <div class="row g-0">
               <div class="col-md-5">
-                <img src="assets/img/the-great-firewall-of-china.png" class="img-fluid rounded-start" alt="Çin’in 'Great Firewall' (Büyük Güvenlik Duvarı) politikası nedeniyle sansürlenen internet erişimini simgeleyen bir görsel." />
+                <img src="../../assets/news/news-the-great-firewall-of-china.webp " class="img-fluid rounded-start" alt="Çin’in 'Great Firewall' (Büyük Güvenlik Duvarı) politikası nedeniyle sansürlenen internet erişimini simgeleyen bir görsel." />
               </div>
               <div class="col-md-7">
                 <div class="card-body">
@@ -226,7 +228,7 @@
                   </p>
                   <p class="card-text">
                     <small class="text-body-secondary"
-                      ><a href="#" class="btn btn-outline-primary"
+                      ><a href="titles/internet-restrictions-china.html" class="btn btn-outline-primary"
                         >Daha fazla bilgi</a
                       ></small
                     >
@@ -239,7 +241,7 @@
           <div class="col card mb-3" id="article2">
             <div class="row g-0">
               <div class="col-md-5">
-                <img src="assets/img/communication-usa.png" class="img-fluid rounded-start" alt="televizyon ekranlarında farklı haber sunumları görünüyor, medya ve tarafsızlık ilişkisini sorgulayan bir sahne" />
+                <img src="../../assets/news/news-communication-usa.webp" class="img-fluid rounded-start" alt="televizyon ekranlarında farklı haber sunumları görünüyor, medya ve tarafsızlık ilişkisini sorgulayan bir sahne" />
               </div>
               <div class="col-md-7">
                 <div class="card-body">
@@ -257,7 +259,7 @@
                   </p>
                   <p class="card-text">
                     <small class="text-body-secondary"
-                      ><a href="#" class="btn btn-outline-primary"
+                      ><a href="titles/media-ownership-foxnews.html" class="btn btn-outline-primary"
                         >Daha fazla bilgi</a
                       ></small
                     >
@@ -270,7 +272,7 @@
         <div class="card mb-3" id="article3">
           <div class="row g-0">
             <div class="col-md-5">
-              <img src="assets/img/rappler.png" class="img-fluid rounded-start" alt="Mahkeme salonunda, elinde mikrofon ve 'Rappler' yazılı bir kalkan bulunduran kadın gazeteci" />
+              <img src="../../assets/news/news-rappler-1-1.webp" class="img-fluid rounded-start" alt="Mahkeme salonunda, elinde mikrofon ve 'Rappler' yazılı bir kalkan bulunduran kadın gazeteci" />
             </div>
             <div class="col-md-7">
               <div class="card-body">
@@ -286,7 +288,7 @@
                 </p>
                 <p class="card-text">
                   <small class="text-body-secondary"
-                    ><a href="#" class="btn btn-outline-primary"
+                    ><a href="titles/unlawful-detentions-ressa.html" class="btn btn-outline-primary"
                       >Daha fazla bilgi</a
                     ></small
                   >
@@ -299,7 +301,7 @@
         <div class="card mb-3" id="article4">
           <div class="row g-0">
             <div class="col-md-5">
-              <img src="assets/img/polonia-taxes.png" class="img-fluid rounded-start" alt="Bir gazeteci, büyük bir kağıt yığını ve etrafına saçılmış paraların arasında, başını eline dayayarak masa başında düşünceli bir şekilde oturuyor" />
+              <img src="../../assets/news/news-poland-tax-1-1.webp" class="img-fluid rounded-start" alt="Bir gazeteci, büyük bir kağıt yığını ve etrafına saçılmış paraların arasında, başını eline dayayarak masa başında düşünceli bir şekilde oturuyor" />
             </div>
             <div class="col-md-7">
               <div class="card-body">
@@ -314,7 +316,7 @@
                 </p>
                 <p class="card-text">
                   <small class="text-body-secondary"
-                    ><a href="#" class="btn btn-outline-primary"
+                    ><a href="titles/economic-pressure-poland.html" class="btn btn-outline-primary"
                       >Daha fazla bilgi</a
                     ></small
                   >
@@ -327,7 +329,7 @@
         <div class="card mb-3" id="article5">
           <div class="row g-0">
             <div class="col-md-5">
-              <img src="assets/img/france-bla-bla.png" class="img-fluid rounded-start" alt="Kurşun delikleriyle hasar görmüş bir duvarın önündeki çalışma masasında Fransız bayrağı asılı; sanatsal çizimler, belgeler ve kalemler dağınık bir şekilde dururken ifade özgürlüğü ve saldırıya uğramış bir yaratıcı alanı simgeliyor" />
+              <img src="../../assets/news/news-france-1-1.webp" class="img-fluid rounded-start" alt="Kurşun delikleriyle hasar görmüş bir duvarın önündeki çalışma masasında Fransız bayrağı asılı; sanatsal çizimler, belgeler ve kalemler dağınık bir şekilde dururken ifade özgürlüğü ve saldırıya uğramış bir yaratıcı alanı simgeliyor" />
             </div>
             <div class="col-md-7">
               <div class="card-body">
@@ -342,7 +344,7 @@
               </p>
                 <p class="card-text">
                   <small class="text-body-secondary"
-                    ><a href="#" class="btn btn-outline-primary"
+                    ><a href="titles/attacks-media-charliehebdo.html" class="btn btn-outline-primary"
                       >Daha fazla bilgi</a
                     ></small
                   >
@@ -355,7 +357,7 @@
         <div class="card mb-3" id="article6">
           <div class="row g-0">
             <div class="col-md-5">
-              <img src="assets/img/cemal-kasikci.png" class="img-fluid rounded-start" alt="Bir adam, yerde kan izleri ve kırık bir kalemle dururken, arkasında Türk bayrağı dalgalanıyor. Görsel, gazeteci Cemal Kaşıkçı cinayetine ve basın özgürlüğüne yönelik tehditlere güçlü bir gönderme yapıyor" />
+              <img src="../../assets/news/news-cemal-kasikci-1-1.webp" class="img-fluid rounded-start" alt="Bir adam, yerde kan izleri ve kırık bir kalemle dururken, arkasında Türk bayrağı dalgalanıyor. Görsel, gazeteci Cemal Kaşıkçı cinayetine ve basın özgürlüğüne yönelik tehditlere güçlü bir gönderme yapıyor" />
             </div>
             <div class="col-md-7">
               <div class="card-body">
@@ -370,7 +372,7 @@
               </p>
                 <p class="card-text">
                   <small class="text-body-secondary"
-                    ><a href="#" class="btn btn-outline-primary"
+                    ><a href="titles/violence-threats-cemal-kasikci.html" class="btn btn-outline-primary"
                       >Daha fazla bilgi</a
                     ></small
                   >
@@ -383,7 +385,7 @@
          <div class="card mb-3" id="article7">
           <div class="row g-0">
             <div class="col-md-5">
-              <img src="assets/img/internet-block.png" class="img-fluid rounded-start" alt="Kalabalık bir şehir meydanında, bir adam 'No Signal' tabelasını asarken insanlar internete erişmeye çalışıyor; dev bir 'INTERNET BLOCKED' anahtarı sansürü ve bilgi akışının kısıtlanmasını simgeliyor." />
+              <img src="../../assets/news/news-internet-blocked.webp" class="img-fluid rounded-start" alt="Kalabalık bir şehir meydanında, bir adam 'No Signal' tabelasını asarken insanlar internete erişmeye çalışıyor; dev bir 'INTERNET BLOCKED' anahtarı sansürü ve bilgi akışının kısıtlanmasını simgeliyor." />
             </div>
             <div class="col-md-7">
               <div class="card-body">
@@ -395,7 +397,7 @@
               </p>
                 <p class="card-text">
                   <small class="text-body-secondary"
-                    ><a href="#" class="btn btn-outline-primary"
+                    ><a href="titles/internet-restrictions-iran.html" class="btn btn-outline-primary"
                       >Daha fazla bilgi</a
                     ></small
                   >
@@ -408,7 +410,7 @@
         <div class="card mb-3" id="article8">
           <div class="row g-0">
             <div class="col-md-5">
-              <img src="assets/img/censored-woman.png" class="img-fluid rounded-start" alt="Bir gazeteci, ağzını kapatan 'CENSORED' etiketiyle konuşmaya çalışırken, bir röportaj mikrofonunda 'ACCESS DENIED' yazıyor; arkadaki ekranlarda siyasi ve toplumsal olaylar gösterilirken basın özgürlüğünün kısıtlanmasını simgeliyor." />
+              <img src="../../assets/news/news-censored-woman.webp" class="img-fluid rounded-start" alt="Bir gazeteci, ağzını kapatan 'CENSORED' etiketiyle konuşmaya çalışırken, bir röportaj mikrofonunda 'ACCESS DENIED' yazıyor; arkadaki ekranlarda siyasi ve toplumsal olaylar gösterilirken basın özgürlüğünün kısıtlanmasını simgeliyor." />
             </div>
             <div class="col-md-7">
               <div class="card-body">
@@ -482,7 +484,7 @@
                     </div>
                     <div class="research-image">
                       <img
-                        src="assets/img/report-cover.png"
+                        src="../../assets/news/news-report-cover.webp"
                         alt="Research Report"
                       />
                     </div>
@@ -500,7 +502,7 @@
                             İnsan hakları eğitimi için öğretim materyalleri ve
                             kılavuzlar
                           </p>
-                          <a href="#" class="btn btn-sm btn-outline-primary"
+                          <a href="../articles/index.html" class="btn btn-sm btn-outline-primary"
                             >Makaleler</a
                           >
                         </div>
@@ -514,10 +516,9 @@
                           <h4>Data & İstatistikler</h4>
                           <p>
                             İnsan hakları veri görselleştirme ve analizi
-                            Verileri Görüntüle <br />
-                            (Sayfanın Üst Kısmında)
+                            Verileri Görüntüle
                           </p>
-                          <a href="#map" class="btn btn-sm btn-outline-primary"
+                          <a href="../index-map/index.html" class="btn btn-sm btn-outline-primary"
                             >İncele</a
                           >
                         </div>
@@ -536,54 +537,58 @@
       <!-- Inner Container End -->
     </div>
     <!-- Container End -->
-    <!-- Footer Start -->
-    <footer class="mt-4">
-      <div class="footer-light"></div>
-      <ul class="social-icon footer-content">
-        <li>
-          <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-        </li>
-        <li>
-          <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-        </li>
-        <li>
-          <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
-        </li>
-        <li>
-          <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
-        </li>
-      </ul>
-      <ul class="menu">
-        <li><a href="#">Ana sayfa</a></li>
-        <li><a href="#">Hakkımızda</a></li>
-        <li><a href="#">Ülkeler</a></li>
-        <li><a href="#">Takım</a></li>
-        <li><a href="#">İletişim</a></li>
-      </ul>
-      <p>&copy;2025 Konus | Tüm Hakları Saklıdırr</p>
-    </footer>
-    <!-- Footer End -->
-         <!-- Icons Start  -->
-    <script
-    type="module"
-    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-  ></script>
-    <script
-    nomodule
-    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-  ></script>
-  <!-- Icons End -->
-    <!-- Bootstrap Start -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
-      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
-      crossorigin="anonymous"
-    ></script>
-    <!-- Bootstrap End -->
+</div>
+    <!-- Footer -->
+<footer class="mt-5">
+  <div class="footer-light"></div>
+  <ul class="social-icon footer-content">
+    <li>
+      <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+    </li>
+    <li>
+      <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+    </li>
+    <li>
+      <a href="#"><ion-icon name="logo-twitter"></ion-icon></a>
+    </li>
+    <li>
+      <a href="#"><ion-icon name="logo-youtube"></ion-icon></a>
+    </li>
+  </ul>
+  <ul class="menu">
+    <li>
+      <a href="../../index.html">Ana sayfa</a>
+    </li>
+    <li>
+      <a href="../about/index.html">Hakkımızda</a>
+    </li>
+    <li>
+      <a href="../contact/index.html#map">Ülkeler</a>
+    </li>
+    <li><a href="../team/index.html">Takım</a></li>
+    <li><a href="../contact/index.html">İletişim</a></li>
+  </ul>
+  <p>&copy;2025 Konus | Tüm Hakları Saklıdırr</p>
+</footer>
+
+<!-- Scripts -->
+<!-- Icons -->
+<script
+  type="module"
+  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+></script>
+
+<!-- Bootstrap JS -->
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+  crossorigin="anonymous"
+></script>
+
   </body>
 </html>
+

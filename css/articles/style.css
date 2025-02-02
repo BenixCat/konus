@@ -16,7 +16,7 @@ body {
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.7)
     ),
-    url('../assets/freedom_vs_security_landscape_16x9.png');
+    url('../../assets/articles/freedom_vs_security_landscape_16x9.webp');
   flex-direction: column;
 }
 
