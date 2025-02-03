@@ -49,3 +49,7 @@ header {
 .mt-5vh {
     margin-top: 15vh;
 }
+
+.btn {
+    border: none;
+}
