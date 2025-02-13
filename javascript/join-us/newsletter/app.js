@@ -1,5 +1,5 @@
-// Sayaç için başlangıç tarihi
-const startDate = new Date("2025-01-29T01:14:41"); // Başlangıç tarihi (örnek: 1 Ocak 2025)
+// Sayaç için başlangıç tarihi (örnek olarak 29 Ocak 2025)
+const startDate = new Date("2025-01-29T01:14:41");
 
 // Sayaç güncelleme fonksiyonu
 function updateCounter() {
@@ -12,10 +12,12 @@ function updateCounter() {
   const minutes = Math.floor((elapsedTime / (1000 * 60)) % 60);
   const seconds = Math.floor((elapsedTime / 1000) % 60);
 
-  // Sonucu ekranda gösterme
-  document.getElementById(
-    "timeElapsed"
-  ).textContent = `${days} gün, ${hours} saat, ${minutes} dakika, ${seconds} saniye geçti.`;
+  // document.getElementById("timeElapsed") undefined olursa hata vermemesi için kontrolü bu şekilde yapabilirsin.
+  // HTML içinde "timeElapsed" id'li bir element olup olmadığını kontrol et
+  const timeElement = document.getElementById("timeElapsed");
+  if (timeElement) {
+    timeElement.textContent = `${days} gün, ${hours} saat, ${minutes} dakika, ${seconds} saniye geçti.`;
+  }
 }
 
 // Her saniyede bir sayaç güncellemesi
